@@ -1,0 +1,189 @@
+{% extends 'base.html' %}
+{% block title %}comtact us{% endblock %}
+{% block logo %}
+    <img src="../static/images/logo.png" alt="logo" class="mob-nav-elem">
+{% endblock %}
+{% block logo2 %}
+    <img src="../static/images/logo.png" alt="logo" class="mob-nav-elem">
+{% endblock %}
+{% block content %}
+<main>
+    <section id="banner">
+        <div class="filter"></div>
+        <h1>Contact Us</h1>
+        <p>Home > Contact Us</p>
+    </section>
+    <section id="infos">
+        <div class="col col1">
+            <a href="tel:1243895873">
+                <i class="fas fa-phone-alt main-i"></i>
+                <h2>Call Center</h2>
+                <p>+124 389 5873</p>
+            </a>
+        </div>
+        <div class="break1"></div>
+        <div class="col col2">
+            <a href="mailto:example@example.com">
+                <i class="far fa-envelope-open main-i"></i>
+                <h2>Mail Us</h2>
+                <p>info@example.com</p>
+            </a>
+        </div>
+        <div class="break2"></div>
+        <div class="col col3">
+            <i class="fas fa-map-marked-alt main-i"></i>
+            <h2>Nearest Branch</h2>
+            <p>25 Main Road, New York</p>
+        </div>
+        <div class="break3"></div>
+        <div class="col col4">
+            <i class="fas fa-tags main-i"></i>
+            <h2>Follow Us</h2>
+            <div class="soc-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sendmes">
+        <div class="col1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5073.508687130312!2d-76.81627011469601!3d38.8983055795471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slb!4v1595585335966!5m2!1sen!2slb" frameborder="0"></iframe>
+        </div>
+        <div class="col2">
+            <h2>Send Us a Message</h2>
+            <div class="line"></div>
+            <div class="form-group">
+                <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                <i class="far fa-user"></i>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <i class="far fa-envelope"></i>
+            </div>
+            <div class="form-group">
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <i class="far fa-sticky-note"></i>
+            </div>
+            <div class="form-group">
+                <textarea name="type-message" id="type-message" placeholder="Type your message" rows="10" style="resize: none;"></textarea>
+                <i class="far fa-envelope"></i>
+            </div>
+            <button class="submit">Send Message</button>
+        </div>
+    </section>
+</main>
+{% endblock %}
+{% block footer %}
+<footer>
+    <div class="images">
+        <div class="box box1">
+            <div class="shadow"></div>
+            <img src="../static/images/food1.jpg" alt="food">
+        </div>
+        <div class="box box2">
+            <div class="shadow"></div>
+            <img src="../static/images/food2.jpg" alt="food">
+        </div>
+        <div class="box box3">
+            <div class="shadow"></div>
+            <img src="../static/images/food3.jpg" alt="food">
+        </div>
+        <div class="box box4">
+            <div class="shadow"></div>
+            <img src="../static/images/food4.jpg" alt="food">
+        </div>
+        <div class="box box5">
+            <div class="shadow"></div>
+            <img src="../static/images/food5.jpg" alt="food">
+        </div>
+        <div class="box box6">
+            <div class="shadow"></div>
+            <img src="../static/images/food6.jpg" alt="food">
+        </div>
+    </div>
+    <div class="bottom">
+        <img src="../static/images/logo2.png" alt="logo2" class="logo2">
+        <div class="main">
+            <div class="about outer-col">
+                <h2>About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel harum nesciunt accusantium ex quae sit quidem vero voluptate impedit unde.
+                </p>
+                <ul class="icons">   
+                    <li>
+                        <div class="fb">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>    
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pinterest">
+                            <a href="#">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="google">
+                            <a href="#">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="twitter">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="links outer-col">
+                <h2>Quick links</h2>
+                <ul>
+                    <li><a href="#">Latest New</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Our Authors</a></li>
+                    <li><a href="#">Recipe Details</a></li>
+                </ul>
+            </div>
+            <div class="recipes outer-col">
+                <h2>Recent Recipe</h2>
+                <div class="recipe">
+                    <div class="col1">
+                        <img src="../static/images/food7.jpg" alt="food7">
+                    </div>
+                    <a href="#">
+                        <div class="col2">
+                            <h3>Recipe</h3>
+                            <p>Traditional Mexican Wedding Cookies</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="recipe">
+                    <div class="col1">
+                        <img src="../static/images/food8.jpg" alt="food7">
+                    </div>
+                    <a href="#">
+                        <div class="col2">
+                            <h3>Recipe</h3>
+                            <p>Spaghetti with Zucchini and Garlic</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr color="gray">
+        <div class="copyright">
+            <p>
+                Copyright © 2020 <a href="#">Andromedathemes</a> All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+{% endblock %}

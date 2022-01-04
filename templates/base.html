@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/pages.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&family=Spline+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Cookly - {% block title %}{% endblock %}</title>
+</head>
+<body onclick='bodyclicks(event)'>
+    <div class="mobile-nav mob-nav-elem">
+        <a href="/">
+            {% block logo2 %}{% endblock %}
+        </a>
+        <ul class="nav-list mob-nav-elem">
+            <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/home">Home Page</a></li>
+            <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/recipes">Recipes</a></li>
+            <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/contact-us">Contact Us</a></li>
+        </ul>
+    </div>
+    <header>
+        <section class="top-header">
+            <div class="its-content">
+                <div class="col1">
+                    <a href="#"><span>Team</span></a>
+                    <a href="/contact-us"><span>Contact Us</span></a>
+                </div>
+                <div class="main-icon">
+                    <a href="/">
+                        {% block logo %}{% endblock %}
+                    </a>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <button class="submit-recipe">Submit Recipe</button>
+                    <div style="padding: 10px; border: 1px solid rgba(0,0,0,0.7); margin: 0 10px;" class="mob-ham mob-nav-elem">
+                        <div class="mob mob-ham mob-nav-elem hamburger" style="--linebg: rgba(0,0,0,0.7)">
+                            <div class="line1 mob-nav-elem line"></div>
+                            <div class="line2 mob-nav-elem line"></div>
+                            <div class="line3 mob-nav-elem line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-header">
+            <div class="its-content">
+                <div class="hamburger">
+                    <div class="line1 line"></div>
+                    <div class="line2 line"></div>
+                    <div class="line3 line"></div>
+                </div>
+                <ul class="list">
+                    <li class="item"><a href="/home">Home Page</a></li>
+                    <li class="item"><a href="/recipes">Recipes</a></li>
+                    <li class="item"><a href="/contact-us">Contact Us</a></li>
+                </ul>
+                <div class="social_icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </header>
+    {% block content %}
+    {% endblock %}
+    {% block footer %}
+    {% endblock %}
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
