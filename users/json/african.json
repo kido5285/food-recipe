@@ -1,0 +1,3051 @@
+{
+    "african": [
+      {
+        "aggregateLikes": 124, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404783, 
+                    "image": "bowl.jpg", 
+                    "localizedName": "bowl", 
+                    "name": "bowl"
+                  }, 
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 11507, 
+                    "image": "sweet-potato.png", 
+                    "localizedName": "sweet potato", 
+                    "name": "sweet potato"
+                  }, 
+                  {
+                    "id": 1042027, 
+                    "image": "seasoning.png", 
+                    "localizedName": "seasoning", 
+                    "name": "seasoning"
+                  }, 
+                  {
+                    "id": 11352, 
+                    "image": "potatoes-yukon-gold.png", 
+                    "localizedName": "potato", 
+                    "name": "potato"
+                  }, 
+                  {
+                    "id": 11529, 
+                    "image": "tomato.png", 
+                    "localizedName": "tomato", 
+                    "name": "tomato"
+                  }, 
+                  {
+                    "id": 5006, 
+                    "image": "whole-chicken.jpg", 
+                    "localizedName": "whole chicken", 
+                    "name": "whole chicken"
+                  }, 
+                  {
+                    "id": 11215, 
+                    "image": "garlic.png", 
+                    "localizedName": "garlic", 
+                    "name": "garlic"
+                  }, 
+                  {
+                    "id": 11216, 
+                    "image": "ginger.png", 
+                    "localizedName": "ginger", 
+                    "name": "ginger"
+                  }, 
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }, 
+                  {
+                    "id": 1002030, 
+                    "image": "pepper.jpg", 
+                    "localizedName": "pepper", 
+                    "name": "pepper"
+                  }, 
+                  {
+                    "id": 1006615, 
+                    "image": "chicken-broth.png", 
+                    "localizedName": "stock", 
+                    "name": "stock"
+                  }, 
+                  {
+                    "id": 2047, 
+                    "image": "salt.jpg", 
+                    "localizedName": "salt", 
+                    "name": "salt"
+                  }, 
+                  {
+                    "id": 4582, 
+                    "image": "vegetable-oil.jpg", 
+                    "localizedName": "cooking oil", 
+                    "name": "cooking oil"
+                  }
+                ], 
+                "length": {
+                  "number": 10, 
+                  "unit": "minutes"
+                }, 
+                "number": 1, 
+                "step": "Season and Boil the Chicken for 10 minutes with salt, pepper, seasoning, a handful of onions.Once the\u00a0chicken is ready, in the same stock, Boil the\u00a0chopped sweet potatoes till its almost cooked. Save the stock in a separate Bowl and the\u00a0chicken and potatoes in a separate Bowl as well.In a pot, heat up one\u00a0cooking spoon of oil and fry the\u00a0chicken till it Browns. Take it out and heat up the other 1.5\u00a0cooking spoons of oil and fry the onions, tomatoes Both chopped and Blended, ginger and garlic."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 1102047, 
+                    "image": "salt-and-pepper.jpg", 
+                    "localizedName": "salt and pepper", 
+                    "name": "salt and pepper"
+                  }, 
+                  {
+                    "id": 1042027, 
+                    "image": "seasoning.png", 
+                    "localizedName": "seasoning", 
+                    "name": "seasoning"
+                  }, 
+                  {
+                    "id": 11297, 
+                    "image": "parsley.jpg", 
+                    "localizedName": "parsley", 
+                    "name": "parsley"
+                  }, 
+                  {
+                    "id": 2015, 
+                    "image": "curry-powder.jpg", 
+                    "localizedName": "curry powder", 
+                    "name": "curry powder"
+                  }, 
+                  {
+                    "id": 2049, 
+                    "image": "thyme.jpg", 
+                    "localizedName": "thyme", 
+                    "name": "thyme"
+                  }
+                ], 
+                "number": 2, 
+                "step": "Add your seasoning, curry, thyme, parsley,\u00a0salt and pepper to the pot."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 16098, 
+                    "image": "peanut-butter.png", 
+                    "localizedName": "peanut butter", 
+                    "name": "peanut butter"
+                  }, 
+                  {
+                    "id": 11352, 
+                    "image": "potatoes-yukon-gold.png", 
+                    "localizedName": "potato", 
+                    "name": "potato"
+                  }, 
+                  {
+                    "id": 5006, 
+                    "image": "whole-chicken.jpg", 
+                    "localizedName": "whole chicken", 
+                    "name": "whole chicken"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "sauce", 
+                    "name": "sauce"
+                  }, 
+                  {
+                    "id": 1006615, 
+                    "image": "chicken-broth.png", 
+                    "localizedName": "stock", 
+                    "name": "stock"
+                  }, 
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }
+                ], 
+                "length": {
+                  "number": 10, 
+                  "unit": "minutes"
+                }, 
+                "number": 3, 
+                "step": "Pour in your stock,\u00a0chicken and potatoes to\u00a0cook further.Stir in your peanut Butter and allow to\u00a0cook for 10 minutes on low heat.If your sauce gets too thick, add a little water to it."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 11507, 
+                    "image": "sweet-potato.png", 
+                    "localizedName": "sweet potato", 
+                    "name": "sweet potato"
+                  }, 
+                  {
+                    "id": 10211821, 
+                    "image": "bell-pepper-orange.png", 
+                    "localizedName": "bell pepper", 
+                    "name": "bell pepper"
+                  }, 
+                  {
+                    "id": 10220444, 
+                    "image": "uncooked-white-rice.png", 
+                    "localizedName": "white rice", 
+                    "name": "white rice"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Serve with white rice or more sweet potatoes.You could also garnish the dish with Bell peppers.\u00a0\u00a0\u00a0"
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Afrolems", 
+        "cuisines": [
+          "African"
+        ], 
+        "dairyFree": true, 
+        "diets": [
+          "gluten free", 
+          "dairy free"
+        ], 
+        "dishTypes": [
+          "lunch", 
+          "main course", 
+          "main dish", 
+          "dinner"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 10211821, 
+            "image": "yellow-bell-pepper.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }
+            }, 
+            "meta": [
+              "for garnishing"
+            ], 
+            "metaInformation": [
+              "for garnishing"
+            ], 
+            "name": "bell peppers", 
+            "nameClean": "bell pepper", 
+            "original": "Bell Peppers for garnishing", 
+            "originalName": "Bell Peppers for garnishing", 
+            "originalString": "Bell Peppers for garnishing", 
+            "unit": "serving"
+          }, 
+          {
+            "aisle": "Meat", 
+            "amount": 1.5, 
+            "consistency": "solid", 
+            "id": 5006, 
+            "image": "whole-chicken.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 354.882, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 1.5, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [
+              "chopped"
+            ], 
+            "metaInformation": [
+              "chopped"
+            ], 
+            "name": "chicken", 
+            "nameClean": "whole chicken", 
+            "original": "1.5 cups of Chopped Chicken", 
+            "originalName": "Chopped Chicken", 
+            "originalString": "1.5 cups of Chopped Chicken", 
+            "unit": "cups"
+          }, 
+          {
+            "aisle": "Oil, Vinegar, Salad Dressing", 
+            "amount": 2.5, 
+            "consistency": "liquid", 
+            "id": 4582, 
+            "image": "vegetable-oil.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.5, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.5, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "cooking oil", 
+            "nameClean": "cooking oil", 
+            "original": "2.5 Cooking spoons of oil", 
+            "originalName": "Cooking spoons of oil", 
+            "originalString": "2.5 Cooking spoons of oil", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Ethnic Foods", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 93605, 
+            "image": "chili-paste.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "curry paste", 
+            "nameClean": "red curry paste", 
+            "original": "1 teaspoon of Curry", 
+            "originalName": "Curry", 
+            "originalString": "1 teaspoon of Curry", 
+            "unit": "teaspoon"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 11215, 
+            "image": "garlic.png", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "garlic cloves", 
+            "nameClean": "garlic", 
+            "original": "2 garlic cloves", 
+            "originalName": "garlic cloves", 
+            "originalString": "2 garlic cloves", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce;Ethnic Foods;Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11216, 
+            "image": "ginger.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "chopped"
+            ], 
+            "metaInformation": [
+              "chopped"
+            ], 
+            "name": "ginger", 
+            "nameClean": "ginger", 
+            "original": "Small piece of Chopped ginger", 
+            "originalName": "Small of Chopped ginger", 
+            "originalString": "Small piece of Chopped ginger", 
+            "unit": "piece"
+          }, 
+          {
+            "aisle": "Nuts;Savory Snacks", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 16091, 
+            "image": "peanuts.png", 
+            "measures": {
+              "metric": {
+                "amount": 236.588, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "cup", 
+                "unitShort": "cup"
+              }
+            }, 
+            "meta": [
+              "(Blended)"
+            ], 
+            "metaInformation": [
+              "(Blended)"
+            ], 
+            "name": "groundnut", 
+            "nameClean": "peanuts", 
+            "original": "1 cup of groundnut (Blended) or 1 Cooking spoon of peanut Butter", 
+            "originalName": "groundnut (Blended) or 1 Cooking spoon of peanut Butter", 
+            "originalString": "1 cup of groundnut (Blended) or 1 Cooking spoon of peanut Butter", 
+            "unit": "cup"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 11282, 
+            "image": "brown-onion.png", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "handfuls", 
+                "unitShort": "handfuls"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "handfuls", 
+                "unitShort": "handfuls"
+              }
+            }, 
+            "meta": [
+              "chopped"
+            ], 
+            "metaInformation": [
+              "chopped"
+            ], 
+            "name": "onions", 
+            "nameClean": "onion", 
+            "original": "2 handfuls of Chopped onions", 
+            "originalName": "Chopped onions", 
+            "originalString": "2 handfuls of Chopped onions", 
+            "unit": "handfuls"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 10211821, 
+            "image": "yellow-bell-pepper.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "bell pepper", 
+            "nameClean": "bell pepper", 
+            "original": "Pepper", 
+            "originalName": "Pepper", 
+            "originalString": "Pepper", 
+            "unit": "serving"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "Salt", 
+            "originalName": "Salt", 
+            "originalString": "Salt", 
+            "unit": "serving"
+          }, 
+          {
+            "aisle": null, 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 1042027, 
+            "image": "seasoning.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "seasoning", 
+            "nameClean": "seasoning", 
+            "original": "Seasoning", 
+            "originalName": "Seasoning", 
+            "originalString": "Seasoning", 
+            "unit": "serving"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 0.5, 
+            "consistency": "solid", 
+            "id": 11507, 
+            "image": "sweet-potato.png", 
+            "measures": {
+              "metric": {
+                "amount": 0.5, 
+                "unitLong": "smalls", 
+                "unitShort": "small"
+              }, 
+              "us": {
+                "amount": 0.5, 
+                "unitLong": "smalls", 
+                "unitShort": "small"
+              }
+            }, 
+            "meta": [
+              "chopped", 
+              "()"
+            ], 
+            "metaInformation": [
+              "chopped", 
+              "()"
+            ], 
+            "name": "sweet potato", 
+            "nameClean": "sweet potato", 
+            "original": "1/2 small sweet potato (Chopped)", 
+            "originalName": "sweet potato (Chopped)", 
+            "originalString": "1/2 small sweet potato (Chopped)", 
+            "unit": "small"
+          }, 
+          {
+            "aisle": "Produce;Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2049, 
+            "image": "thyme.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "pinch", 
+                "unitShort": "pinch"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "pinch", 
+                "unitShort": "pinch"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "thyme", 
+            "nameClean": "thyme", 
+            "original": "Pinch of thyme", 
+            "originalName": "Pinch of thyme", 
+            "originalString": "Pinch of thyme", 
+            "unit": "pinch"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11529, 
+            "image": "tomato.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "small", 
+                "unitShort": "small"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "small", 
+                "unitShort": "small"
+              }
+            }, 
+            "meta": [
+              "chopped"
+            ], 
+            "metaInformation": [
+              "chopped"
+            ], 
+            "name": "tomato", 
+            "nameClean": "tomato", 
+            "original": "1 Chopped small tomato", 
+            "originalName": "Chopped small tomato", 
+            "originalString": "1 Chopped small tomato", 
+            "unit": "small"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.5, 
+            "consistency": "solid", 
+            "id": 11529, 
+            "image": "tomato.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.5, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.5, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "tomato", 
+            "nameClean": "tomato", 
+            "original": "1.5 Cooking spoons of Blended tomato", 
+            "originalName": "Cooking spoons of Blended tomato", 
+            "originalString": "1.5 Cooking spoons of Blended tomato", 
+            "unit": ""
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": true, 
+        "healthScore": 100.0, 
+        "id": 716268, 
+        "image": "https://spoonacular.com/recipeImages/716268-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "Season and Boil the Chicken for 10 minutes with salt, pepper, seasoning, a handful of onions.Once the\u00a0chicken is ready, in the same stock, Boil the\u00a0chopped sweet potatoes till its almost cooked. Save the stock in a separate Bowl and the\u00a0chicken and potatoes in a separate Bowl as well.In a pot, heat up one\u00a0cooking spoon of oil and fry the\u00a0chicken till it Browns. Take it out and heat up the other 1.5\u00a0cooking spoons of oil and fry the onions, tomatoes Both chopped and Blended, ginger and garlic.Add your seasoning, curry, thyme, parsley,\u00a0salt and pepper to the pot.Pour in your stock,\u00a0chicken and potatoes to\u00a0cook further.Stir in your peanut Butter and allow to\u00a0cook for 10 minutes on low heat.If your sauce gets too thick, add a little water to it. Serve with white rice or more sweet potatoes.You could also garnish the dish with Bell peppers.\u00a0\u00a0\u00a0", 
+        "license": "CC BY 4.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "1204k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 60.24, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "88g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 136.45, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "15g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 94.8, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "60g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 20.15, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "16g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 18.76, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "61mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 20.34, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "340mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.81, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "1204k", 
+          "carbs": "60g", 
+          "expires": 1636821405259, 
+          "fat": "88g", 
+          "good": [
+            {
+              "amount": "58g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 117.87, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "17105IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 342.11, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "233mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 283.46, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "4mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 234.48, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "32mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 161.93, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "476\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 119.01, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "23g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 92.72, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "362mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 90.69, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 85.59, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 84.06, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 84.03, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "835mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 83.52, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "2495mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 71.3, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "8mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 49.37, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "4mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 46.23, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "39\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 37.69, 
+              "title": "Vitamin K"
+            }, 
+            {
+              "amount": "5mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 35.49, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "23\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 33.89, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "4mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 32.65, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "0.53mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 31.1, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "257mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 25.71, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "0.25\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 4.2, 
+              "title": "Vitamin B12"
+            }, 
+            {
+              "amount": "0.16\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.08, 
+              "title": "Vitamin D"
+            }
+          ], 
+          "isStale": true, 
+          "protein": "58g"
+        }, 
+        "occasions": [
+          "fall", 
+          "winter"
+        ], 
+        "originalId": null, 
+        "pricePerServing": 355.78, 
+        "readyInMinutes": 45, 
+        "servings": 1, 
+        "sourceName": "Afrolems", 
+        "sourceUrl": "http://www.afrolems.com/2014/03/18/african-chicken-peanut-stew-recipe/", 
+        "spoonacularScore": 99.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/african-chicken-peanut-stew-716268", 
+        "summary": "Need a <b>gluten free and dairy free main course</b>? African Chicken Peanut Stew could be a tremendous recipe to try. This recipe makes 1 servings with <b>1377 calories</b>, <b>75g of protein</b>, and <b>102g of fat</b> each. For <b>$3.87 per serving</b>, this recipe <b>covers 62%</b> of your daily requirements of vitamins and minerals. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. 124 people have tried and liked this recipe. Head to the store and pick up bell peppers, tomato, pepper, and a few other things to make it today. To use up the tomato you could follow this main course with the <a href=\"https://spoonacular.com/recipes/pink-peony-popcorn-balls-129348\">Pink Peony Popcorn Balls</a> as a dessert. All things considered, we decided this recipe <b>deserves a spoonacular score of 99%</b>. This score is super. Try <a href=\"https://spoonacular.com/recipes/african-chicken-peanut-stew-245461\">African Chicken Peanut Stew</a>, <a href=\"https://spoonacular.com/recipes/west-african-peanut-chicken-stew-163315\">West African Peanut-Chicken Stew</a>, and <a href=\"https://spoonacular.com/recipes/one-pot-african-peanut-stew-854978\">One-Pot African Peanut Stew</a> for similar recipes.", 
+        "sustainable": false, 
+        "title": "African Chicken Peanut Stew", 
+        "vegan": false, 
+        "vegetarian": false, 
+        "veryHealthy": true, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 32, 
+        "winePairing": {
+          "pairedWines": [
+            "pinotage", 
+            "chenin blanc", 
+            "riesling"
+          ], 
+          "pairingText": "Pinotage, Chenin Blanc, and Riesling are my top picks for African. The best wine for African dishes will depend on the dish, but a fruity, aromatic white wine is a safe bet for spicy dishes while pinotage would be a traditional match for South African cuisine. One wine you could try is Beeslaar Pinotage. It has 4.8 out of 5 stars and a bottle costs about 50 dollars.", 
+          "productMatches": [
+            {
+              "averageRating": 0.96, 
+              "description": "Offering lifted aromatics with notions of incense and a floral component, there\u2019s a touch of spice and earthiness to the dark cherry and dark plum notes on the nose. Medium fuller bodied this has engaging fruit purity and concentration with a sleek texture and finer tuned tannins to the juicy dark berry fruit flavors. Weighing in at 14.5% alcohol by volume this maintains its freshness and vibrancy and fleshes out with aeration suggesting that this will age beautifully over a good number of years.", 
+              "id": 489548, 
+              "imageUrl": "https://spoonacular.com/productImages/489548-312x231.jpg", 
+              "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbeeslaar-pinotage-2017%2F539446", 
+              "price": "$49.99", 
+              "ratingCount": 12.0, 
+              "score": 0.932972972972973, 
+              "title": "Beeslaar Pinotage"
+            }
+          ]
+        }
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }
+                ], 
+                "number": 1, 
+                "step": "Saute onions in large pot until soft."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 16098, 
+                    "image": "peanut-butter.png", 
+                    "localizedName": "peanut butter", 
+                    "name": "peanut butter"
+                  }
+                ], 
+                "length": {
+                  "number": 120, 
+                  "unit": "minutes"
+                }, 
+                "number": 2, 
+                "step": "Add all ingredients except for peanut butter and simmer for 1 1/2 hours. Stir a spoonful of peanut butter into each serving."
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "African"
+        ], 
+        "dairyFree": true, 
+        "diets": [
+          "gluten free", 
+          "dairy free", 
+          "lacto ovo vegetarian", 
+          "vegan"
+        ], 
+        "dishTypes": [
+          "soup"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Pasta and Rice;Canned and Jarred", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 16063, 
+            "image": "black-eyed-peas.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 473.176, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [
+              "dried"
+            ], 
+            "metaInformation": [
+              "dried"
+            ], 
+            "name": "black eyed peas", 
+            "nameClean": "blackeyed peas", 
+            "original": "2 cups dried black-eyed peas", 
+            "originalName": "dried black-eyed peas", 
+            "originalString": "2 cups dried black-eyed peas", 
+            "unit": "cups"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 11124, 
+            "image": "sliced-carrot.png", 
+            "measures": {
+              "metric": {
+                "amount": 473.176, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [
+              "sliced"
+            ], 
+            "metaInformation": [
+              "sliced"
+            ], 
+            "name": "carrots", 
+            "nameClean": "carrot", 
+            "original": "2 cups sliced carrots", 
+            "originalName": "sliced carrots", 
+            "originalString": "2 cups sliced carrots", 
+            "unit": "cups"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11333, 
+            "image": "green-pepper.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 236.588, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "cup", 
+                "unitShort": "cup"
+              }
+            }, 
+            "meta": [
+              "diced", 
+              "green"
+            ], 
+            "metaInformation": [
+              "diced", 
+              "green"
+            ], 
+            "name": "green bell pepper", 
+            "nameClean": "green pepper", 
+            "original": "1 cup green pepper, diced", 
+            "originalName": "green pepper, diced", 
+            "originalString": "1 cup green pepper, diced", 
+            "unit": "cup"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 0.5, 
+            "consistency": "solid", 
+            "id": 11282, 
+            "image": "brown-onion.png", 
+            "measures": {
+              "metric": {
+                "amount": 118.294, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 0.5, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [
+              "chopped"
+            ], 
+            "metaInformation": [
+              "chopped"
+            ], 
+            "name": "onion", 
+            "nameClean": "onion", 
+            "original": "1/2 cup chopped onion", 
+            "originalName": "chopped onion", 
+            "originalString": "1/2 cup chopped onion", 
+            "unit": "cup"
+          }, 
+          {
+            "aisle": "Nut butters, Jams, and Honey", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 16098, 
+            "image": "peanut-butter.png", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "peanut butter", 
+            "nameClean": "peanut butter", 
+            "original": "2 tablespoons peanut butter", 
+            "originalName": "peanut butter", 
+            "originalString": "2 tablespoons peanut butter", 
+            "unit": "tablespoons"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 0.75, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 0.75, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }, 
+              "us": {
+                "amount": 0.75, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "3/4 teaspoon salt", 
+            "originalName": "salt", 
+            "originalString": "3/4 teaspoon salt", 
+            "unit": "teaspoon"
+          }, 
+          {
+            "aisle": "Beverages", 
+            "amount": 150.0, 
+            "consistency": "liquid", 
+            "id": 14412, 
+            "image": "water.png", 
+            "measures": {
+              "metric": {
+                "amount": 150.0, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 5.073, 
+                "unitLong": "fl. ozs", 
+                "unitShort": "fl. oz"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "water", 
+            "nameClean": "water", 
+            "original": "150 ml water", 
+            "originalName": "water", 
+            "originalString": "150 ml water", 
+            "unit": "ml"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": true, 
+        "healthScore": 59.0, 
+        "id": 632003, 
+        "image": "https://spoonacular.com/recipeImages/632003-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "<ol><li>Saute onions in large pot until soft. Add all ingredients except for peanut butter and simmer for 1 1/2 hours. </li><li>Stir a spoonful of peanut butter into each serving.</li></ol>", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "188k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.42, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "4g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.27, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "1g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 6.33, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "29g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.72, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "8g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 9.28, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "0.0mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "524mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 22.79, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "188k", 
+          "carbs": "29g", 
+          "expires": 1641989983508, 
+          "fat": "4g", 
+          "good": [
+            {
+              "amount": "9g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 19.58, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "10842IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 216.86, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "204\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 51.12, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "35mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 43.09, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "8g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 35.34, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "0.69mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 34.48, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "198mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 19.85, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "71mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.92, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "590mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.87, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "0.25mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.82, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "0.34mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.79, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "0.33mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.26, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.85, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "12\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 12.19, 
+              "title": "Vitamin K"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.65, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.55, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.16, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "0.67mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.74, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "0.11mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.39, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "54mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.49, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "2\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.95, 
+              "title": "Selenium"
+            }
+          ], 
+          "isStale": false, 
+          "protein": "9g"
+        }, 
+        "occasions": [
+          "fall", 
+          "winter"
+        ], 
+        "originalId": null, 
+        "pricePerServing": 42.94, 
+        "readyInMinutes": 45, 
+        "servings": 4, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "http://www.foodista.com/recipe/5WXW6JDS/african-bean-soup", 
+        "spoonacularScore": 88.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/african-bean-soup-632003", 
+        "summary": "African Bean Soup might be just the soup you are searching for. This gluten free and vegan recipe serves 4 and costs <b>43 cents per serving</b>. One serving contains <b>188 calories</b>, <b>10g of protein</b>, and <b>5g of fat</b>. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. Head to the store and pick up black-eyed peas, carrots, pepper, and a few other things to make it today. 1 person has made this recipe and would make it again. This recipe is typical of African cuisine. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 89%</b>. This score is tremendous. Similar recipes include <a href=\"https://spoonacular.com/recipes/african-pumpkin-and-bean-soup-618715\">African Pumpkin and Bean Soup</a>, <a href=\"https://spoonacular.com/recipes/african-inspired-sweet-potato-and-black-bean-burgers-158200\">African-Inspired Sweet Potato and Black Bean Burgers</a>, and <a href=\"https://spoonacular.com/recipes/african-peanut-and-yam-soup-46362\">African Peanut And Yam Soup</a>.", 
+        "sustainable": false, 
+        "title": "African Bean Soup", 
+        "vegan": true, 
+        "vegetarian": true, 
+        "veryHealthy": true, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 4, 
+        "winePairing": {
+          "pairedWines": [
+            "pinotage", 
+            "chenin blanc", 
+            "riesling"
+          ], 
+          "pairingText": "African on the menu? Try pairing with Pinotage, Chenin Blanc, and Riesling. The best wine for African dishes will depend on the dish, but a fruity, aromatic white wine is a safe bet for spicy dishes while pinotage would be a traditional match for South African cuisine. One wine you could try is The Winery of Good Hope Full Berry Pinotage. It has 4.9 out of 5 stars and a bottle costs about 15 dollars.", 
+          "productMatches": [
+            {
+              "averageRating": 0.9800000000000001, 
+              "description": "This wine displays a refreshing yet juicy palate with black berries, plums, wild black fruits and a wonderful, natural sucrosit\u00e9. It has a lithe texture with integrated, supple tannins and some attractive spice on the finish. Incredibly moreish!", 
+              "id": 504110, 
+              "imageUrl": "https://spoonacular.com/productImages/504110-312x231.jpg", 
+              "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fthe-winery-of-good-hope-full-berry-pinotage-2020%2F737427", 
+              "price": "$14.99", 
+              "ratingCount": 11.0, 
+              "score": 0.9505882352941177, 
+              "title": "The Winery of Good Hope Full Berry Pinotage"
+            }
+          ]
+        }
+      }, 
+      {
+        "aggregateLikes": 347, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404783, 
+                    "image": "bowl.jpg", 
+                    "localizedName": "bowl", 
+                    "name": "bowl"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 11529, 
+                    "image": "tomato.png", 
+                    "localizedName": "tomato", 
+                    "name": "tomato"
+                  }, 
+                  {
+                    "id": 11215, 
+                    "image": "garlic.png", 
+                    "localizedName": "garlic", 
+                    "name": "garlic"
+                  }, 
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }, 
+                  {
+                    "id": 1002030, 
+                    "image": "pepper.jpg", 
+                    "localizedName": "pepper", 
+                    "name": "pepper"
+                  }, 
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }, 
+                  {
+                    "id": 20444, 
+                    "image": "uncooked-white-rice.png", 
+                    "localizedName": "rice", 
+                    "name": "rice"
+                  }
+                ], 
+                "number": 1, 
+                "step": "*Wash rice by rubbing the rice between your palms in a bowl of water and draining the water till clear.Blend tomatoes, pepper and garlic and bring to boil till the excess water dries up.Chop Onions"
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 4669, 
+                    "image": "vegetable-oil.jpg", 
+                    "localizedName": "vegetable oil", 
+                    "name": "vegetable oil"
+                  }, 
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }
+                ], 
+                "number": 2, 
+                "step": "Heat up vegetable oil and pour in chopped onions and fry."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 11547, 
+                    "image": "tomato-paste.jpg", 
+                    "localizedName": "tomato puree", 
+                    "name": "tomato puree"
+                  }
+                ], 
+                "number": 3, 
+                "step": "Pour in the can of tomato puree and fry."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 1002030, 
+                    "image": "pepper.jpg", 
+                    "localizedName": "pepper", 
+                    "name": "pepper"
+                  }, 
+                  {
+                    "id": 11529, 
+                    "image": "tomato.png", 
+                    "localizedName": "tomato", 
+                    "name": "tomato"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Pour in blended tomato and pepper mix into the pot and stir in."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 2004, 
+                    "image": "bay-leaves.jpg", 
+                    "localizedName": "bay leaves", 
+                    "name": "bay leaves"
+                  }, 
+                  {
+                    "id": 1002030, 
+                    "image": "pepper.jpg", 
+                    "localizedName": "pepper", 
+                    "name": "pepper"
+                  }, 
+                  {
+                    "id": 2015, 
+                    "image": "curry-powder.jpg", 
+                    "localizedName": "curry powder", 
+                    "name": "curry powder"
+                  }, 
+                  {
+                    "id": 2049, 
+                    "image": "thyme.jpg", 
+                    "localizedName": "thyme", 
+                    "name": "thyme"
+                  }, 
+                  {
+                    "id": 20444, 
+                    "image": "uncooked-white-rice.png", 
+                    "localizedName": "rice", 
+                    "name": "rice"
+                  }, 
+                  {
+                    "id": 2047, 
+                    "image": "salt.jpg", 
+                    "localizedName": "salt", 
+                    "name": "salt"
+                  }
+                ], 
+                "length": {
+                  "number": 3, 
+                  "unit": "minutes"
+                }, 
+                "number": 5, 
+                "step": "Pour in salt, dry pepper, curry, thyme, bay leaves and maggi cubes.Allow it to simmer on low heat for 3 minutes.Reduce the heat to the lowest level and pour in the washed rice."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }, 
+                  {
+                    "id": 20444, 
+                    "image": "uncooked-white-rice.png", 
+                    "localizedName": "rice", 
+                    "name": "rice"
+                  }
+                ], 
+                "length": {
+                  "number": 23, 
+                  "unit": "minutes"
+                }, 
+                "number": 6, 
+                "step": "Pour in the water and stir and leave on low heat for 20 minutes or till the rice is soft.Tip: To get the party rice flavor, increase the heat on the rice and burn the bottom of the pot with the pot covered and stir the rice after 3 minutes of burning.Stir the rice and serve with any protein of your choice.\u00a0 // <![CDATA[(adsbygoogle = window.adsbygoogle || []).push({});// ]]&gt;A video I shared on Instagram recently"
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Afrolems", 
+        "cuisines": [
+          "African"
+        ], 
+        "dairyFree": true, 
+        "diets": [
+          "gluten free", 
+          "dairy free", 
+          "lacto ovo vegetarian", 
+          "vegan"
+        ], 
+        "dishTypes": [
+          "side dish"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Produce;Spices and Seasonings", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 2004, 
+            "image": "bay-leaves.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "bay leaves", 
+            "nameClean": "bay leaves", 
+            "original": "2 Bay leaves", 
+            "originalName": "Bay leaves", 
+            "originalString": "2 Bay leaves", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2015, 
+            "image": "curry-powder.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "curry powder", 
+            "nameClean": "curry powder", 
+            "original": "1 Teaspoon of curry powder", 
+            "originalName": "curry powder", 
+            "originalString": "1 Teaspoon of curry powder", 
+            "unit": "Teaspoon"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11215, 
+            "image": "garlic.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "Clove", 
+                "unitShort": "Clove"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "Clove", 
+                "unitShort": "Clove"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "garlic", 
+            "nameClean": "garlic", 
+            "original": "1 Clove of garlic", 
+            "originalName": "garlic", 
+            "originalString": "1 Clove of garlic", 
+            "unit": "Clove"
+          }, 
+          {
+            "aisle": "Frozen", 
+            "amount": 3.0, 
+            "consistency": "solid", 
+            "id": 10014412, 
+            "image": "ice-cubes.png", 
+            "measures": {
+              "metric": {
+                "amount": 3.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "ice cubes", 
+            "nameClean": "ice", 
+            "original": "3 Cubes of Maggi", 
+            "originalName": "Cubes of Maggi", 
+            "originalString": "3 Cubes of Maggi", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11282, 
+            "image": "brown-onion.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "onion", 
+            "nameClean": "onion", 
+            "original": "1 Small bulb of Onion", 
+            "originalName": "Small bulb of Onion", 
+            "originalString": "1 Small bulb of Onion", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 1002030, 
+            "image": "pepper.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }
+            }, 
+            "meta": [
+              "dry"
+            ], 
+            "metaInformation": [
+              "dry"
+            ], 
+            "name": "pepper", 
+            "nameClean": "black pepper", 
+            "original": "1 Teaspoon of dry pepper", 
+            "originalName": "dry pepper", 
+            "originalString": "1 Teaspoon of dry pepper", 
+            "unit": "Teaspoon"
+          }, 
+          {
+            "aisle": "Pasta and Rice", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 20444, 
+            "image": "uncooked-white-rice.png", 
+            "measures": {
+              "metric": {
+                "amount": 473.176, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "rice", 
+            "nameClean": "rice", 
+            "original": "2 cups of Rice", 
+            "originalName": "Rice", 
+            "originalString": "2 cups of Rice", 
+            "unit": "cups"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 7.0, 
+            "consistency": "solid", 
+            "id": 10211529, 
+            "image": "roma-tomatoes.png", 
+            "measures": {
+              "metric": {
+                "amount": 7.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 7.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "roma tomatoes", 
+            "nameClean": "italian tomato", 
+            "original": "7 Medium sized Roma Tomatoes", 
+            "originalName": "Medium sized Roma Tomatoes", 
+            "originalString": "7 Medium sized Roma Tomatoes", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "2 Teaspoons of Salt", 
+            "originalName": "Salt", 
+            "originalString": "2 Teaspoons of Salt", 
+            "unit": "Teaspoons"
+          }, 
+          {
+            "aisle": "Produce;Ethnic Foods", 
+            "amount": 3.0, 
+            "consistency": "solid", 
+            "id": 10011819, 
+            "image": "scotch-bonnet-chile.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 3.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "scotch bonnet chili peppers", 
+            "nameClean": "scotch bonnet chili", 
+            "original": "3 Scotch Bonnet Peppers", 
+            "originalName": "Scotch Bonnet Peppers", 
+            "originalString": "3 Scotch Bonnet Peppers", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce;Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2049, 
+            "image": "thyme.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "pinch", 
+                "unitShort": "pinch"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "pinch", 
+                "unitShort": "pinch"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "thyme", 
+            "nameClean": "thyme", 
+            "original": "A pinch of Thyme", 
+            "originalName": "A of Thyme", 
+            "originalString": "A pinch of Thyme", 
+            "unit": "pinch"
+          }, 
+          {
+            "aisle": "Canned and Jarred", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11547, 
+            "image": "tomato-paste.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "canned"
+            ], 
+            "metaInformation": [
+              "canned"
+            ], 
+            "name": "tomato puree", 
+            "nameClean": "tomato puree", 
+            "original": "1 Small can of Tomato puree", 
+            "originalName": "Small can of Tomato puree", 
+            "originalString": "1 Small can of Tomato puree", 
+            "unit": ""
+          }, 
+          {
+            "aisle": null, 
+            "amount": 2.0, 
+            "consistency": null, 
+            "id": 4513, 
+            "image": null, 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "vegetable cooking oil", 
+            "nameClean": null, 
+            "original": "2 Cooking spoons of Vegetable Oil", 
+            "originalName": "Cooking spoons of Vegetable Oil", 
+            "originalString": "2 Cooking spoons of Vegetable Oil", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Beverages", 
+            "amount": 3.0, 
+            "consistency": "liquid", 
+            "id": 14412, 
+            "image": "water.png", 
+            "measures": {
+              "metric": {
+                "amount": 709.764, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "water", 
+            "nameClean": "water", 
+            "original": "3 cups of water", 
+            "originalName": "water", 
+            "originalString": "3 cups of water", 
+            "unit": "cups"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": true, 
+        "healthScore": 20.0, 
+        "id": 716298, 
+        "image": "https://spoonacular.com/recipeImages/716298-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "*Wash rice by rubbing the rice between your palms in a bowl of water and draining the water till clear.Blend tomatoes, pepper and garlic and bring to boil till the excess water dries up.Chop OnionsHeat up vegetable oil and pour in chopped onions and fry. Pour in the can of tomato puree and fry.Pour in blended tomato and pepper mix into the pot and stir in. Pour in salt, dry pepper, curry, thyme, bay leaves and maggi cubes.Allow it to simmer on low heat for 3 minutes.Reduce the heat to the lowest level and pour in the washed rice. Pour in the water and stir and leave on low heat for 20 minutes or till the rice is soft.Tip: To get the party rice flavor, increase the heat on the rice and burn the bottom of the pot with the pot covered and stir the rice after 3 minutes of burning.Stir the rice and serve with any protein of your choice.\u00a0 // <![CDATA[(adsbygoogle = window.adsbygoogle || []).push({});// ]]&gt;A video I shared on Instagram recently", 
+        "license": "CC BY 4.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "500k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 25.03, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "1g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.01, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "0.31g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 1.93, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "109g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 36.59, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "6g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 6.76, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "0.0mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "1579mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 68.67, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "500k", 
+          "carbs": "109g", 
+          "expires": 1635530236514, 
+          "fat": "1g", 
+          "good": [
+            {
+              "amount": "10g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 21.77, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 85.69, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "37mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 45.35, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "19\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 27.36, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "1318IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 26.37, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "0.44mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 22.19, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "0.44mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 21.81, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "196mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 19.66, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "4g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 18.21, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "595mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.03, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "3mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 15.22, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "58mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.64, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.61, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "14\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.17, 
+              "title": "Vitamin K"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.72, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "0.17mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.23, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "42\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.54, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.5, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.69, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "76mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.6, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "0.11mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.55, 
+              "title": "Vitamin B2"
+            }
+          ], 
+          "isStale": true, 
+          "protein": "10g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 122.98, 
+        "readyInMinutes": 45, 
+        "servings": 3, 
+        "sourceName": "Afrolems", 
+        "sourceUrl": "http://www.afrolems.com/2012/11/23/how-to-make-party-jollof-rice/", 
+        "spoonacularScore": 86.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/how-to-make-party-jollof-rice-716298", 
+        "summary": "The recipe How to Make Party Jollof Rice is ready <b>in about 45 minutes</b> and is definitely an amazing <b>gluten free and vegan</b> option for lovers of African food. For <b>$1.35 per serving</b>, this recipe <b>covers 20%</b> of your daily requirements of vitamins and minerals. This recipe makes 3 servings with <b>528 calories</b>, <b>12g of protein</b>, and <b>2g of fat</b> each. Many people made this recipe, and 347 would say it hit the spot. If you have bay leaves, roma tomatoes, salt, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 93%</b>. This score is outstanding. Try <a href=\"https://spoonacular.com/recipes/jollof-rice-with-chicken-from-ghana-728651\">Jollof Rice with Chicken from Ghana</a>, <a href=\"https://spoonacular.com/recipes/chex-party-mix-it-is-easy-to-make-599956\">Chex Party Mix \u2013 it is easy to make</a>, and <a href=\"https://spoonacular.com/recipes/make-ahead-party-mashed-potatoes-329849\">Make-Ahead Party Mashed Potatoes</a> for similar recipes.", 
+        "sustainable": false, 
+        "title": "How to Make Party Jollof Rice", 
+        "vegan": true, 
+        "vegetarian": true, 
+        "veryHealthy": false, 
+        "veryPopular": true, 
+        "weightWatcherSmartPoints": 13, 
+        "winePairing": {
+          "pairedWines": [
+            "pinotage", 
+            "chenin blanc", 
+            "riesling"
+          ], 
+          "pairingText": "Pinotage, Chenin Blanc, and Riesling are my top picks for African. The best wine for African dishes will depend on the dish, but a fruity, aromatic white wine is a safe bet for spicy dishes while pinotage would be a traditional match for South African cuisine. The Kanonkop Pinotage with a 4.2 out of 5 star rating seems like a good match. It costs about 30 dollars per bottle.", 
+          "productMatches": [
+            {
+              "averageRating": 0.8400000000000001, 
+              "description": "#100 Wine Spectator Top 100 of 2010\nCrafted from the fruit of some of South\nAfrica's oldest Pinotage vines, this\nbenchmark bottling is a true Cape classic!\nAlluringly complex and distinctive, it\nboasts juicy layers of dark berries,\ncassis and plum intertwined with hints\nof banana and mocha and a smoky,\nminerally undercurrent.", 
+              "id": 442755, 
+              "imageUrl": "https://spoonacular.com/productImages/442755-312x231.jpg", 
+              "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fkanonkop-pinotage-2001%2F61854", 
+              "price": "$29.99", 
+              "ratingCount": 6.0, 
+              "score": 0.7873684210526317, 
+              "title": "Kanonkop Pinotage"
+            }
+          ]
+        }
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 11143, 
+                    "image": "celery.jpg", 
+                    "localizedName": "celery", 
+                    "name": "celery"
+                  }, 
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "soup", 
+                    "name": "soup"
+                  }, 
+                  {
+                    "id": 4582, 
+                    "image": "vegetable-oil.jpg", 
+                    "localizedName": "cooking oil", 
+                    "name": "cooking oil"
+                  }
+                ], 
+                "number": 1, 
+                "step": "In a large soup pot add the oil, onions and celery.  Cook over medium low heat until translucent."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 11215, 
+                    "image": "garlic.png", 
+                    "localizedName": "garlic", 
+                    "name": "garlic"
+                  }
+                ], 
+                "number": 2, 
+                "step": "Add the garlic and saute until fragrant."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 11887, 
+                    "image": "tomato-paste.jpg", 
+                    "localizedName": "tomato paste", 
+                    "name": "tomato paste"
+                  }, 
+                  {
+                    "id": 16057, 
+                    "image": "chickpeas.png", 
+                    "localizedName": "chickpeas", 
+                    "name": "chickpeas"
+                  }, 
+                  {
+                    "id": 1006972, 
+                    "image": "harissa-paste.jpg", 
+                    "localizedName": "harissa", 
+                    "name": "harissa"
+                  }, 
+                  {
+                    "id": 1006615, 
+                    "image": "chicken-broth.png", 
+                    "localizedName": "stock", 
+                    "name": "stock"
+                  }, 
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }
+                ], 
+                "number": 3, 
+                "step": "Add the tomato paste and harissa.  Cook a minute then add the water or stock slowly while stirring to combine the flavor paste in the pot with the liquids.  Throw in the chickpeas and bring to a boil.  As soon as it reaches a boil, reduce heat to a simmer."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 20133, 
+                    "image": "dried-rice-noodles.jpg", 
+                    "localizedName": "rice noodles", 
+                    "name": "rice noodles"
+                  }, 
+                  {
+                    "id": 20093, 
+                    "image": "fusilli.jpg", 
+                    "localizedName": "fresh pasta", 
+                    "name": "fresh pasta"
+                  }, 
+                  {
+                    "id": 20420, 
+                    "image": "fusilli.jpg", 
+                    "localizedName": "pasta", 
+                    "name": "pasta"
+                  }, 
+                  {
+                    "id": 10020027, 
+                    "image": "", 
+                    "localizedName": "starch", 
+                    "name": "starch"
+                  }, 
+                  {
+                    "id": 1006615, 
+                    "image": "chicken-broth.png", 
+                    "localizedName": "broth", 
+                    "name": "broth"
+                  }, 
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "soup", 
+                    "name": "soup"
+                  }
+                ], 
+                "length": {
+                  "number": 15, 
+                  "unit": "minutes"
+                }, 
+                "number": 4, 
+                "step": "Add the pasta and cook according to the package directions.  My suggestion is that if you are using fresh pasta, give it a rinse under tap water to remove the starch before adding it to the soup.  It might make the broth cloudy.  If using rice noodles add them right before serving to prevent overcooked mushy noodles.  To cook rice noodles place them in a shallow dish and cover with hot water for 10-15 minutes to soften."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 1042027, 
+                    "image": "seasoning.png", 
+                    "localizedName": "seasoning", 
+                    "name": "seasoning"
+                  }
+                ], 
+                "number": 5, 
+                "step": "Just before serving taste for seasoning, adjust to your taste."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404752, 
+                    "image": "stock-pot.jpg", 
+                    "localizedName": "pot", 
+                    "name": "pot"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 10018029, 
+                    "image": "crusty-bread.jpg", 
+                    "localizedName": "crusty bread", 
+                    "name": "crusty bread"
+                  }, 
+                  {
+                    "id": 9152, 
+                    "image": "lemon-juice.jpg", 
+                    "localizedName": "lemon juice", 
+                    "name": "lemon juice"
+                  }, 
+                  {
+                    "id": 11583, 
+                    "image": "mixed-vegetables.png", 
+                    "localizedName": "vegetable", 
+                    "name": "vegetable"
+                  }, 
+                  {
+                    "id": 10011457, 
+                    "image": "spinach.jpg", 
+                    "localizedName": "spinach", 
+                    "name": "spinach"
+                  }, 
+                  {
+                    "id": 2047, 
+                    "image": "salt.jpg", 
+                    "localizedName": "salt", 
+                    "name": "salt"
+                  }
+                ], 
+                "number": 6, 
+                "step": "Adding too much salt earlier on could make things too salty because some of the ingredients can bring a lot of salt to the pot.  Then add the spinach, it will only take a minute to shrink into nearly nothing, but it is sure a powerhouse vegetable that amps up the nutrition in this meal quickly and without fuss.  A squeeze of fresh lemon juice after it has been taken off the heat will add a nice bright flavor to perk up those dreary dark days of winter.  Enjoy with some crusty bread.  A meal you can feel good about, filling yet light."
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "African"
+        ], 
+        "dairyFree": true, 
+        "diets": [
+          "dairy free", 
+          "lacto ovo vegetarian", 
+          "vegan"
+        ], 
+        "dishTypes": [
+          "soup"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Oil, Vinegar, Salad Dressing", 
+            "amount": 1.0, 
+            "consistency": "liquid", 
+            "id": 4582, 
+            "image": "vegetable-oil.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "Tbsp", 
+                "unitShort": "Tbsp"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "Tbsp", 
+                "unitShort": "Tbsp"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "canola oil", 
+            "nameClean": "cooking oil", 
+            "original": "1 tablespoon grapeseed or canola oil", 
+            "originalName": "grapeseed or canola oil", 
+            "originalString": "1 tablespoon grapeseed or canola oil", 
+            "unit": "tablespoon"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 3.0, 
+            "consistency": "solid", 
+            "id": 11215, 
+            "image": "garlic.png", 
+            "measures": {
+              "metric": {
+                "amount": 3.0, 
+                "unitLong": "cloves", 
+                "unitShort": "cloves"
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "cloves", 
+                "unitShort": "cloves"
+              }
+            }, 
+            "meta": [
+              "minced"
+            ], 
+            "metaInformation": [
+              "minced"
+            ], 
+            "name": "garlic", 
+            "nameClean": "garlic", 
+            "original": "3 cloves of garlic, minced", 
+            "originalName": "garlic, minced", 
+            "originalString": "3 cloves of garlic, minced", 
+            "unit": "cloves"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11282, 
+            "image": "brown-onion.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "small", 
+                "unitShort": "small"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "small", 
+                "unitShort": "small"
+              }
+            }, 
+            "meta": [
+              "diced"
+            ], 
+            "metaInformation": [
+              "diced"
+            ], 
+            "name": "onion", 
+            "nameClean": "onion", 
+            "original": "1 small onion, diced small", 
+            "originalName": "onion, diced small", 
+            "originalString": "1 small onion, diced small", 
+            "unit": "small"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11246, 
+            "image": "leeks.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "stalk", 
+                "unitShort": "stalk"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "stalk", 
+                "unitShort": "stalk"
+              }
+            }, 
+            "meta": [
+              "finely chopped"
+            ], 
+            "metaInformation": [
+              "finely chopped"
+            ], 
+            "name": "leek", 
+            "nameClean": "leek", 
+            "original": "1 stalk of celery or one leek, finely chopped", 
+            "originalName": "celery or one leek, finely chopped", 
+            "originalString": "1 stalk of celery or one leek, finely chopped", 
+            "unit": "stalk"
+          }, 
+          {
+            "aisle": "Canned and Jarred", 
+            "amount": 14.0, 
+            "consistency": "solid", 
+            "id": 16058, 
+            "image": "chickpeas.png", 
+            "measures": {
+              "metric": {
+                "amount": 396.893, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 14.0, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "drained and rinsed", 
+              "canned", 
+              "(garbanzo beans)"
+            ], 
+            "metaInformation": [
+              "drained and rinsed", 
+              "canned", 
+              "(garbanzo beans)"
+            ], 
+            "name": "canned chickpeas", 
+            "nameClean": "canned chickpeas", 
+            "original": "14 ounces can chickpeas (garbanzo beans), drained and rinsed", 
+            "originalName": "chickpeas (garbanzo beans), drained and rinsed", 
+            "originalString": "14 ounces can chickpeas (garbanzo beans), drained and rinsed", 
+            "unit": "ounces"
+          }, 
+          {
+            "aisle": "Pasta and Rice", 
+            "amount": 3.0, 
+            "consistency": "solid", 
+            "id": 11887, 
+            "image": "tomato-paste.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 3.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [
+              "(yep, ketchup works great!)"
+            ], 
+            "metaInformation": [
+              "(yep, ketchup works great!)"
+            ], 
+            "name": "tomato paste", 
+            "nameClean": "tomato paste", 
+            "original": "3 tablespoons tomato paste or ketchup (yep, ketchup works great!)", 
+            "originalName": "tomato paste or ketchup (yep, ketchup works great!)", 
+            "originalString": "3 tablespoons tomato paste or ketchup (yep, ketchup works great!)", 
+            "unit": "tablespoons"
+          }, 
+          {
+            "aisle": "Ethnic Foods", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 1006972, 
+            "image": "harissa-paste.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [
+              "canned"
+            ], 
+            "metaInformation": [
+              "canned"
+            ], 
+            "name": "harissa", 
+            "nameClean": "harissa", 
+            "original": "2 tablespoons harissa or other chili paste, add depending on the amount of heat you can handle", 
+            "originalName": "harissa or other chili paste, add depending on the amount of heat you can handle", 
+            "originalString": "2 tablespoons harissa or other chili paste, add depending on the amount of heat you can handle", 
+            "unit": "tablespoons"
+          }, 
+          {
+            "aisle": "Beverages", 
+            "amount": 4.0, 
+            "consistency": "liquid", 
+            "id": 14412, 
+            "image": "water.png", 
+            "measures": {
+              "metric": {
+                "amount": 946.352, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "water", 
+            "nameClean": "water", 
+            "original": "1 liter (4 cups) water, chicken broth, vegetable broth", 
+            "originalName": "liter water, chicken broth, vegetable broth", 
+            "originalString": "1 liter (4 cups) water, chicken broth, vegetable broth", 
+            "unit": "cups"
+          }, 
+          {
+            "aisle": "Pasta and Rice;Gluten Free;Ethnic Foods", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 20133, 
+            "image": "dried-rice-noodles.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "package", 
+                "unitShort": "pkg"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "package", 
+                "unitShort": "pkg"
+              }
+            }, 
+            "meta": [
+              "fresh", 
+              "hot", 
+              "softened"
+            ], 
+            "metaInformation": [
+              "fresh", 
+              "hot", 
+              "softened"
+            ], 
+            "name": "rice noodles", 
+            "nameClean": "rice vermicelli", 
+            "original": "1 package fresh pasta or a large handful of rice noodles softened in hot", 
+            "originalName": "fresh pasta or a large handful of rice noodles softened in hot", 
+            "originalString": "1 package fresh pasta or a large handful of rice noodles softened in hot", 
+            "unit": "package"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 0.5, 
+            "consistency": "solid", 
+            "id": 10011457, 
+            "image": "spinach.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 0.5, 
+                "unitLong": "packages", 
+                "unitShort": "pkg"
+              }, 
+              "us": {
+                "amount": 0.5, 
+                "unitLong": "packages", 
+                "unitShort": "pkg"
+              }
+            }, 
+            "meta": [
+              "fresh", 
+              "good"
+            ], 
+            "metaInformation": [
+              "fresh", 
+              "good"
+            ], 
+            "name": "spinach leaves", 
+            "nameClean": "spinach", 
+            "original": "1/2 package of fresh spinach leaves or 3 good handfuls", 
+            "originalName": "fresh spinach leaves or 3 good handfuls", 
+            "originalString": "1/2 package of fresh spinach leaves or 3 good handfuls", 
+            "unit": "package"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "liquid", 
+            "id": 9152, 
+            "image": "lemon-juice.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "Tbsp", 
+                "unitShort": "Tbsp"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "Tbsp", 
+                "unitShort": "Tbsp"
+              }
+            }, 
+            "meta": [
+              "red"
+            ], 
+            "metaInformation": [
+              "red"
+            ], 
+            "name": "lemon juice", 
+            "nameClean": "lemon juice", 
+            "original": "A tablespoon of lemon juice or 1 tablespoon red wine vinegar", 
+            "originalName": "A of lemon juice or 1 tablespoon red wine vinegar", 
+            "originalString": "A tablespoon of lemon juice or 1 tablespoon red wine vinegar", 
+            "unit": "tablespoon"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 23.0, 
+        "id": 653275, 
+        "image": "https://spoonacular.com/recipeImages/653275-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "In a large soup pot add the oil, onions and celery.  Cook over medium low heat until translucent.  Add the garlic and saute until fragrant.   Add the tomato paste and harissa.  Cook a minute then add the water or stock slowly while stirring to combine the flavor paste in the pot with the liquids.  Throw in the chickpeas and bring to a boil.  As soon as it reaches a boil, reduce heat to a simmer.\nAdd the pasta and cook according to the package directions.  My suggestion is that if you are using fresh pasta, give it a rinse under tap water to remove the starch before adding it to the soup.  It might make the broth cloudy.  If using rice noodles add them right before serving to prevent overcooked mushy noodles.  To cook rice noodles place them in a shallow dish and cover with hot water for 10-15 minutes to soften.\nJust before serving taste for seasoning, adjust to your taste.  Adding too much salt earlier on could make things too salty because some of the ingredients can bring a lot of salt to the pot.  Then add the spinach, it will only take a minute to shrink into nearly nothing, but it is sure a powerhouse vegetable that amps up the nutrition in this meal quickly and without fuss.  A squeeze of fresh lemon juice after it has been taken off the heat will add a nice bright flavor to perk up those dreary dark days of winter.  Enjoy with some crusty bread.  A meal you can feel good about, filling yet light.", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "361k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 18.05, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "6g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.24, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "0.6g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 3.72, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "68g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 22.71, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "3g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 3.63, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "0.0mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "614mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 26.73, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "361k", 
+          "carbs": "68g", 
+          "expires": 1635783654510, 
+          "fat": "6g", 
+          "good": [
+            {
+              "amount": "8g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.8, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "175\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 167.53, 
+              "title": "Vitamin K"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 75.48, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "3582IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 71.65, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "0.64mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 31.8, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "7g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 29.38, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "101\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 25.45, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "17mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 21.07, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "205mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 20.6, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "72mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 18.13, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "0.35mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.39, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "12\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.15, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "3mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.1, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "546mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 15.61, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.37, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "101mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.14, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.73, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "0.12mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.24, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "0.1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.97, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.2, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "0.41mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 4.06, 
+              "title": "Vitamin B5"
+            }
+          ], 
+          "isStale": true, 
+          "protein": "8g"
+        }, 
+        "occasions": [
+          "fall", 
+          "winter"
+        ], 
+        "originalId": null, 
+        "pricePerServing": 159.03, 
+        "readyInMinutes": 45, 
+        "servings": 4, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "https://www.foodista.com/recipe/FW478NZC/north-african-chickpea-soup", 
+        "spoonacularScore": 63.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/north-african-chickpea-soup-653275", 
+        "summary": "North African Chickpea Soup might be a good recipe to expand your soup collection. This recipe serves 4. One serving contains <b>361 calories</b>, <b>9g of protein</b>, and <b>6g of fat</b>. For <b>$1.59 per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. It is a good option if you're following a <b>dairy free, lacto ovo vegetarian, and vegan</b> diet. 1 person has tried and liked this recipe. A mixture of chickpeas, water, spinach leaves, and a handful of other ingredients are all it takes to make this recipe so yummy. Not a lot of people really liked this African dish. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>approximately 45 minutes</b>. Overall, this recipe earns a <b>pretty good spoonacular score of 62%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/north-african-chickpea-and-kale-soup-158497\">North African Chickpean and Kale Soup</a>, <a href=\"https://spoonacular.com/recipes/north-african-soup-vegetarian-101246\">North African Soup (Vegetarian)</a>, and <a href=\"https://spoonacular.com/recipes/north-african-fish-soup-95183\">North African Fish Soup</a>.", 
+        "sustainable": false, 
+        "title": "North African Chickpea Soup", 
+        "vegan": true, 
+        "vegetarian": true, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 10, 
+        "winePairing": {
+          "pairedWines": [
+            "pinotage", 
+            "chenin blanc", 
+            "riesling"
+          ], 
+          "pairingText": "African can be paired with Pinotage, Chenin Blanc, and Riesling. The best wine for African dishes will depend on the dish, but a fruity, aromatic white wine is a safe bet for spicy dishes while pinotage would be a traditional match for South African cuisine. One wine you could try is Kanonkop Pinotage. It has 4.2 out of 5 stars and a bottle costs about 30 dollars.", 
+          "productMatches": [
+            {
+              "averageRating": 0.8400000000000001, 
+              "description": "#100 Wine Spectator Top 100 of 2010\nCrafted from the fruit of some of South\nAfrica's oldest Pinotage vines, this\nbenchmark bottling is a true Cape classic!\nAlluringly complex and distinctive, it\nboasts juicy layers of dark berries,\ncassis and plum intertwined with hints\nof banana and mocha and a smoky,\nminerally undercurrent.", 
+              "id": 442755, 
+              "imageUrl": "https://spoonacular.com/productImages/442755-312x231.jpg", 
+              "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fkanonkop-pinotage-2001%2F61854", 
+              "price": "$29.99", 
+              "ratingCount": 6.0, 
+              "score": 0.7873684210526317, 
+              "title": "Kanonkop Pinotage"
+            }
+          ]
+        }
+      }
+    ]
+  }

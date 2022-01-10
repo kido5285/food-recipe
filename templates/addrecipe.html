@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% block title %}Submit Recipe{% endblock %}
+{% block logo %}
+    <img src="../static/images/logo.png" alt="logo" class="mob-nav-elem">
+{% endblock %}
+{% block logo2 %}
+    <img src="../static/images/logo.png" alt="logo" class="mob-nav-elem">
+{% endblock %}
+{% block content %}
+<main>
+    <section id="banner">
+        <div class="filter"></div>
+        <h1>Submit your recipe</h1>
+    </section>
+    <section id="submitrecipe">
+        <h2>Submit your recipe</h2>
+        <form class="submit-recipe-form">
+            <label for="title">title: </label>
+            <input type="text" id="title" for="title" placeholder="title" required>
+            <label for="ratings">Ratings: </label>
+            <div>
+                <input type="number" id="ratings" name="ratings" min="1" max="100" placeholder="approval ratings in %" required>  %
+            </div>
+            <label for="readyInMinutes">Estimated time to prepare meal: </label>
+            <input type="number" id="readyInMinutes" name="readyInMinutes" placeholder="estimated time in minutes" required>
+            <label for="cuisine">Cuisine</label>
+            <select name="cuisine" id="cuisine">
+                <option value="african">african</option>
+                <option value="american">american</option>
+                <option value="british">british</option>
+                <option value="cajun">cajun</option>
+                <option value="caribbean">caribbean</option>
+                <option value="chinese">chinese</option>
+                <option value="eastern european">eastern european</option>
+                <option value="european">european</option>
+                <option value="french">french</option>
+                <option value="german">german</option>
+                <option value="greek">greek</option>
+                <option value="irish">irish</option>
+                <option value="italian">italian</option>
+                <option value="japanese">japanese</option>
+                <option value="jewish">jewish</option>
+                <option value="korean">korean</option>
+                <option value="latin american">latin american</option>
+                <option value="mediterranean">mediterranean</option>
+                <option value="mexican">mexican</option>
+                <option value="middle eastern">middle eastern</option>
+                <option value="nordic">nordic</option>
+                <option value="southern">southern</option>
+                <option value="thai">thai</option>
+                <option value="vietnamese">vietnamese</option>
+            </select>
+            <label for="url">Image url: </label>
+            <input type="text" id="url" name="url" placeholder="meal image url" required>
+            <label for="summary">Summary: </label>
+            <textarea name="summary" id="summary" placeholder="summary"></textarea>
+            <label for="instruction">Instruction: </label>
+            <hr>
+            <div id="instruction" name="instruction" class="instruction">
+                <ol>
+                    <li contenteditable="true">Your First Step (click here to edit)</li>
+                </ol>
+                <button type="button" class="add-instruction"><i class="fas fa-plus"></i>  Add step</button>
+            </div>
+            <hr>
+            <label for="nutrition">Nutrition: </label>
+            <div class="nutrition">
+                <div class="good">
+                    <h3>Good Nutritions</h3>
+                    <ul class="good-list">
+                        <li><span class="title" contenteditable="true">Nutrition title(click to edit)</span><span class="amount" contenteditable="true">Nutrition amount(click to edit)</span></li>
+                    </ul>
+                    <button class="good-add" type="button"><i class="fas fa-plus"></i> Add Nutrition</button>
+                </div>
+                <div class="bad">
+                    <h3>Bad Nutritions</h3>
+                    <ul class="bad-list">
+                        <li><span class="title" contenteditable="true">Nutrition title(click to edit)</span><span class="amount" contenteditable="true">Nutrition amount(click to edit)</span></li>
+                    </ul>
+                    <button class="bad-add" type="button"><i class="fas fa-plus"></i> Add Nutrition</button>
+                </div>
+            </div>
+            <hr>
+            <label for="ingredients">Ingredients: </label>
+            <div class="ingredients" name="ingredients" id="ingredients">
+                <ul>
+                    <li contenteditable="true">First ingredients(click to edit)</li>
+                </ul>
+                <button type="button"><i class="fas fa-plus"></i> Add Ingredients</button>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+{% endblock %}
+{% block footer %}
+<footer>
+    <div class="images">
+        <div class="box box1">
+            <div class="shadow"></div>
+            <img src="../static/images/food1.jpg" alt="food">
+        </div>
+        <div class="box box2">
+            <div class="shadow"></div>
+            <img src="../static/images/food2.jpg" alt="food">
+        </div>
+        <div class="box box3">
+            <div class="shadow"></div>
+            <img src="../static/images/food3.jpg" alt="food">
+        </div>
+        <div class="box box4">
+            <div class="shadow"></div>
+            <img src="../static/images/food4.jpg" alt="food">
+        </div>
+        <div class="box box5">
+            <div class="shadow"></div>
+            <img src="../static/images/food5.jpg" alt="food">
+        </div>
+        <div class="box box6">
+            <div class="shadow"></div>
+            <img src="../static/images/food6.jpg" alt="food">
+        </div>
+    </div>
+    <div class="bottom">
+        <img src="../static/images/logo2.png" alt="logo2" class="logo2">
+        <div class="main">
+            <div class="about outer-col">
+                <h2>About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel harum nesciunt accusantium ex quae sit quidem vero voluptate impedit unde.
+                </p>
+                <ul class="icons">   
+                    <li>
+                        <div class="fb">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>    
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pinterest">
+                            <a href="#">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="google">
+                            <a href="#">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="twitter">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="links outer-col">
+                <h2>Quick links</h2>
+                <ul>
+                    <li><a href="#">Latest New</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Our Authors</a></li>
+                    <li><a href="#">Recipe Details</a></li>
+                </ul>
+            </div>
+            <div class="recipes outer-col">
+                <h2>Recent Recipe</h2>
+                <div class="recipe">
+                    <div class="col1">
+                        <img src="../static/images/food7.jpg" alt="food7">
+                    </div>
+                    <a href="#">
+                        <div class="col2">
+                            <h3>Recipe</h3>
+                            <p>Traditional Mexican Wedding Cookies</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="recipe">
+                    <div class="col1">
+                        <img src="../static/images/food8.jpg" alt="food7">
+                    </div>
+                    <a href="#">
+                        <div class="col2">
+                            <h3>Recipe</h3>
+                            <p>Spaghetti with Zucchini and Garlic</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr color="gray">
+        <div class="copyright">
+            <p>
+                Copyright © 2020 <a href="#">Andromedathemes</a> All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+{% endblock %}

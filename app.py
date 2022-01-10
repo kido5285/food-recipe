@@ -1,10 +1,16 @@
 from flask import Flask, render_template, redirect
+from users.models import db
 
 app = Flask(__name__)
+
+
+from users.router import outer_routes
+outer_routes(app, db)
 
 @app.route('/')
 def ind():
     return redirect('/home')
+
 
 @app.route('/home/')
 def home():
@@ -22,8 +28,8 @@ def contactus():
 def cuisine(cuisine):
     return render_template('cuisine-section.html', name=cuisine)
 
-@app.route('/recipe/<recipe>/')
-def details(recipe=0):
+@app.route('/recipe/<recipe>/<cuisine>')
+def details(recipe=0, cuisine=None):
     print(recipe)
     return render_template('details.html', id=recipe)
 

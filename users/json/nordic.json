@@ -1,0 +1,3870 @@
+{
+    "nordic": [
+      {
+        "aggregateLikes": 3, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 1001, 
+                    "image": "butter-sliced.jpg", 
+                    "localizedName": "butter", 
+                    "name": "butter"
+                  }
+                ], 
+                "number": 1, 
+                "step": "Heat oven to 400 degrees and place butter in 9 x 13 inch casserole to melt."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404645, 
+                    "image": "pan.png", 
+                    "localizedName": "frying pan", 
+                    "name": "frying pan"
+                  }
+                ], 
+                "ingredients": [], 
+                "number": 2, 
+                "step": "Mix other ingredients into a batter and pour into hot pan."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven"
+                  }
+                ], 
+                "ingredients": [], 
+                "length": {
+                  "number": 20, 
+                  "unit": "minutes"
+                }, 
+                "number": 3, 
+                "step": "Bake 20 minutes. It will puff up and edges will curl in and brown when done."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404645, 
+                    "image": "pan.png", 
+                    "localizedName": "frying pan", 
+                    "name": "frying pan"
+                  }
+                ], 
+                "ingredients": [], 
+                "number": 4, 
+                "step": "Cut in squares and serve with a variety of toppings. Makes 10 slices per pan."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [], 
+                "number": 5, 
+                "step": "Serves 6 to 8."
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "Nordic", 
+          "Scandinavian", 
+          "European"
+        ], 
+        "dairyFree": false, 
+        "diets": [
+          "lacto ovo vegetarian"
+        ], 
+        "dishTypes": [
+          "lunch", 
+          "main course", 
+          "main dish", 
+          "dinner"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 1001, 
+            "image": "butter-sliced.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [
+              "softened"
+            ], 
+            "metaInformation": [
+              "softened"
+            ], 
+            "name": "butter", 
+            "nameClean": "butter", 
+            "original": "Butter - 2 tbsp, softened", 
+            "originalName": "Butter , softened", 
+            "originalString": "Butter - 2 tbsp, softened", 
+            "unit": "tbsp"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 6.0, 
+            "consistency": "solid", 
+            "id": 1123, 
+            "image": "egg.png", 
+            "measures": {
+              "metric": {
+                "amount": 6.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 6.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "eggs", 
+            "nameClean": "egg", 
+            "original": "6 eggs", 
+            "originalName": "eggs", 
+            "originalString": "6 eggs", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Baking", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 20081, 
+            "image": "flour.png", 
+            "measures": {
+              "metric": {
+                "amount": 236.588, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "cup", 
+                "unitShort": "cup"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "flour", 
+            "nameClean": "wheat flour", 
+            "original": "1 cup flour", 
+            "originalName": "flour", 
+            "originalString": "1 cup flour", 
+            "unit": "cup"
+          }, 
+          {
+            "aisle": "Nut butters, Jams, and Honey", 
+            "amount": 4.0, 
+            "consistency": "solid", 
+            "id": 19297, 
+            "image": "grape-jelly.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "jam", 
+            "nameClean": "preserves", 
+            "original": "Jam", 
+            "originalName": "Jam", 
+            "originalString": "Jam", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Cereal", 
+            "amount": 4.0, 
+            "consistency": "liquid", 
+            "id": 19911, 
+            "image": "maple-syrup.png", 
+            "measures": {
+              "metric": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "maple syrup", 
+            "nameClean": "maple syrup", 
+            "original": "Maple syrup", 
+            "originalName": "Maple syrup", 
+            "originalString": "Maple syrup", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 1.0, 
+            "consistency": "liquid", 
+            "id": 1077, 
+            "image": "milk.png", 
+            "measures": {
+              "metric": {
+                "amount": 236.588, 
+                "unitLong": "milliliters", 
+                "unitShort": "ml"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "cup", 
+                "unitShort": "cup"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "milk", 
+            "nameClean": "milk", 
+            "original": "1 cup milk", 
+            "originalName": "milk", 
+            "originalString": "1 cup milk", 
+            "unit": "cup"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 4.0, 
+            "consistency": "solid", 
+            "id": 9200, 
+            "image": "orange.png", 
+            "measures": {
+              "metric": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "orange", 
+            "nameClean": "orange", 
+            "original": "Or cranberry-orange relish", 
+            "originalName": "Or cranberry-orange relish", 
+            "originalString": "Or cranberry-orange relish", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Baking", 
+            "amount": 4.0, 
+            "consistency": "solid", 
+            "id": 19336, 
+            "image": "powdered-sugar.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "powdered sugar", 
+            "nameClean": "powdered sugar", 
+            "original": "Powdered sugar", 
+            "originalName": "Powdered sugar", 
+            "originalString": "Powdered sugar", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "Dash", 
+                "unitShort": "Dash"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "Dash", 
+                "unitShort": "Dash"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "Dash of salt", 
+            "originalName": "salt", 
+            "originalString": "Dash of salt", 
+            "unit": "Dash"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 4.0, 
+            "consistency": "solid", 
+            "id": 9316, 
+            "image": "strawberries.png", 
+            "measures": {
+              "metric": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [
+              "fresh", 
+              "sliced"
+            ], 
+            "metaInformation": [
+              "fresh", 
+              "sliced"
+            ], 
+            "name": "strawberries", 
+            "nameClean": "strawberries", 
+            "original": "Fresh sliced strawberries", 
+            "originalName": "Fresh sliced strawberries", 
+            "originalString": "Fresh sliced strawberries", 
+            "unit": "servings"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 15.0, 
+        "id": 633830, 
+        "image": "https://spoonacular.com/recipeImages/633830-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "<ol><li>Heat oven to 400 degrees and place butter in 9 x 13 inch casserole to melt. Mix other ingredients into a batter and pour into hot pan. Bake 20 minutes. It will puff up and edges will curl in and brown when done. Cut in squares and serve with a variety of toppings. Makes 10 slices per pan. Serves 6 to 8.</li></ol>", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "525k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 26.27, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "14g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 22.89, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "6g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 43.33, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "84g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 28.04, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "48g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 53.75, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "266mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 88.96, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "190mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 8.29, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "525k", 
+          "carbs": "84g", 
+          "expires": 1641999665963, 
+          "fat": "14g", 
+          "good": [
+            {
+              "amount": "15g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 30.77, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "134mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 162.8, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 64.04, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "0.9mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 52.94, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "34\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 49.51, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "155\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 38.81, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "0.43mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 28.63, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "268mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 26.83, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "6g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 24.42, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "197mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 19.72, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "3mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 19.06, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "650mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 18.59, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.93, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "852IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 17.05, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "2\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.8, 
+              "title": "Vitamin D"
+            }, 
+            {
+              "amount": "0.87\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.57, 
+              "title": "Vitamin B12"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.92, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "0.27mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.69, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "53mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.44, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "0.24mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.9, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.46, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.15, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "4\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.94, 
+              "title": "Vitamin K"
+            }
+          ], 
+          "protein": "15g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 274.37, 
+        "readyInMinutes": 45, 
+        "servings": 4, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "http://www.foodista.com/recipe/66J4MJKZ/baked-swedish-pancake", 
+        "spoonacularScore": 58.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/baked-swedish-pancake-633830", 
+        "summary": "Baked Swedish Pancake might be just the morn meal you are searching for. One serving contains <b>525 calories</b>, <b>15g of protein</b>, and <b>15g of fat</b>. This vegetarian recipe serves 4 and costs <b>$2.74 per serving</b>. Only a few people made this recipe, and 3 would say it hit the spot. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. If you have butter, jam, flour, and a few other ingredients on hand, you can make it. This recipe is typical of Scandinavian cuisine. All things considered, we decided this recipe <b>deserves a spoonacular score of 61%</b>. This score is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/swedish-baked-potatoes-hasselbackspotatis-120544\">Swedish Baked Potatoes (Hasselbackspotatis)</a>, <a href=\"https://spoonacular.com/recipes/very-berry-baked-pancake-476779\">Very Berry Baked Pancake</a>, and <a href=\"https://spoonacular.com/recipes/baked-apple-pancake-633428\">Baked Apple Pancake</a>.", 
+        "sustainable": false, 
+        "title": "Baked Swedish Pancake", 
+        "vegan": false, 
+        "vegetarian": true, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 17, 
+        "winePairing": {}
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404645, 
+                    "image": "pan.png", 
+                    "localizedName": "frying pan", 
+                    "name": "frying pan"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }
+                ], 
+                "number": 1, 
+                "step": "Chop the onion finely and sweat in a frying pan until softened. Put to the side to cool."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 18079, 
+                    "image": "breadcrumbs.jpg", 
+                    "localizedName": "breadcrumbs", 
+                    "name": "breadcrumbs"
+                  }, 
+                  {
+                    "id": 1123, 
+                    "image": "egg.png", 
+                    "localizedName": "egg", 
+                    "name": "egg"
+                  }
+                ], 
+                "length": {
+                  "number": 10, 
+                  "unit": "minutes"
+                }, 
+                "number": 2, 
+                "step": "Add the egg to the breadcrumbs and allow to swell for about 10 min."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 18079, 
+                    "image": "breadcrumbs.jpg", 
+                    "localizedName": "breadcrumbs", 
+                    "name": "breadcrumbs"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "fresh-ground-beef.jpg", 
+                    "localizedName": "ground meat", 
+                    "name": "ground meat"
+                  }, 
+                  {
+                    "id": 11282, 
+                    "image": "brown-onion.png", 
+                    "localizedName": "onion", 
+                    "name": "onion"
+                  }
+                ], 
+                "number": 3, 
+                "step": "Mix together the onion, breadcrumb mixture and the mince."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven"
+                  }, 
+                  {
+                    "id": 404645, 
+                    "image": "pan.png", 
+                    "localizedName": "frying pan", 
+                    "name": "frying pan"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 10110219, 
+                    "image": "meatballs.png", 
+                    "localizedName": "meatballs", 
+                    "name": "meatballs"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "fresh-ground-beef.jpg", 
+                    "localizedName": "ground meat", 
+                    "name": "ground meat"
+                  }, 
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Pour in the water and season.Work the mince mixture thoroughly with your hands.Now, with damp hands form the meatballs to even sized balls approximately 3 cm across.Fry in a fairly hot pan until golden brown all around.Then finish them of in the oven till all your meatballs are fried."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [], 
+                "number": 5, 
+                "step": "Cut one in half to make sure they are cooked through."
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "Nordic", 
+          "Scandinavian", 
+          "European"
+        ], 
+        "dairyFree": true, 
+        "diets": [
+          "dairy free"
+        ], 
+        "dishTypes": [
+          "lunch", 
+          "main course", 
+          "main dish", 
+          "dinner"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Frozen;Meat", 
+            "amount": 300.0, 
+            "consistency": "solid", 
+            "id": 23572, 
+            "image": "beef-cubes-raw.png", 
+            "measures": {
+              "metric": {
+                "amount": 300.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 10.582, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "minced"
+            ], 
+            "metaInformation": [
+              "minced"
+            ], 
+            "name": "beef", 
+            "nameClean": "beef", 
+            "original": "300 grams minced beef", 
+            "originalName": "minced beef", 
+            "originalString": "300 grams minced beef", 
+            "unit": "grams"
+          }, 
+          {
+            "aisle": "Pasta and Rice", 
+            "amount": 5.0, 
+            "consistency": "solid", 
+            "id": 18079, 
+            "image": "breadcrumbs.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 5.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 5.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [
+              "fine"
+            ], 
+            "metaInformation": [
+              "fine"
+            ], 
+            "name": "breadcrumbs", 
+            "nameClean": "breadcrumbs", 
+            "original": "5 tablespoons fine breadcrumbs", 
+            "originalName": "fine breadcrumbs", 
+            "originalString": "5 tablespoons fine breadcrumbs", 
+            "unit": "tablespoons"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 1123, 
+            "image": "egg.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "egg", 
+            "nameClean": "egg", 
+            "original": "1 egg", 
+            "originalName": "egg", 
+            "originalString": "1 egg", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Meat", 
+            "amount": 300.0, 
+            "consistency": "solid", 
+            "id": 10010219, 
+            "image": "pork-tenderloin-raw.png", 
+            "measures": {
+              "metric": {
+                "amount": 300.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 10.582, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "minced", 
+              "(or chicken)"
+            ], 
+            "metaInformation": [
+              "minced", 
+              "(or chicken)"
+            ], 
+            "name": "pork", 
+            "nameClean": "pork", 
+            "original": "300 grams minced pork (or chicken)", 
+            "originalName": "minced pork (or chicken)", 
+            "originalString": "300 grams minced pork (or chicken)", 
+            "unit": "grams"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 0.25, 
+            "consistency": "solid", 
+            "id": 1102047, 
+            "image": "salt-and-pepper.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 0.25, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }, 
+              "us": {
+                "amount": 0.25, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt and pepper", 
+            "nameClean": "salt and pepper", 
+            "original": "1/4 teaspoon EACH salt and pepper", 
+            "originalName": "EACH salt and pepper", 
+            "originalString": "1/4 teaspoon EACH salt and pepper", 
+            "unit": "teaspoon"
+          }, 
+          {
+            "aisle": "Beverages", 
+            "amount": 3.0, 
+            "consistency": "liquid", 
+            "id": 14412, 
+            "image": "water.png", 
+            "measures": {
+              "metric": {
+                "amount": 3.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "water", 
+            "nameClean": "water", 
+            "original": "3 tablespoons of water", 
+            "originalName": "water", 
+            "originalString": "3 tablespoons of water", 
+            "unit": "tablespoons"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 10511282, 
+            "image": "brown-onion.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "yellow"
+            ], 
+            "metaInformation": [
+              "yellow"
+            ], 
+            "name": "yellow onion", 
+            "nameClean": "yellow onion", 
+            "original": "1 yellow onion", 
+            "originalName": "yellow onion", 
+            "originalString": "1 yellow onion", 
+            "unit": ""
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 10.0, 
+        "id": 648565, 
+        "image": "https://spoonacular.com/recipeImages/648565-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "<ol><li>Chop the onion finely and sweat in a frying pan until softened. Put to the side to cool.</li><li>Add the egg to the breadcrumbs and allow to swell for about 10 min.</li><li>Mix together the onion, breadcrumb mixture and the mince.</li><li>Pour in the water and season.</li><li>Work the mince mixture thoroughly with your hands.</li><li>Now, with damp hands form the meatballs to even sized balls approximately 3 cm across.</li><li>Fry in a fairly hot pan until golden brown all around.</li><li>Then finish them of in the oven till all your meatballs are fried.</li><li>Cut one in half to make sure they are cooked through.</li></ol>", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "463k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 23.19, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "32g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 50.2, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "12g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 76.02, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "11g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.88, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "1g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 2.2, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "148mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 49.39, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "346mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 15.06, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "463k", 
+          "carbs": "11g", 
+          "expires": 1641999666653, 
+          "fat": "32g", 
+          "good": [
+            {
+              "amount": "28g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 57.78, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "36\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 51.95, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "0.72mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 47.95, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "2\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 37.86, 
+              "title": "Vitamin B12"
+            }, 
+            {
+              "amount": "7mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 36.47, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "5mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 34.38, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "300mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 30.01, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "0.6mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 29.82, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "0.4mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 23.25, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.5, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "497mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.22, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.49, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "36mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.14, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "0.17mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 8.44, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "32\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 8.19, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "0.13mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.6, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "59mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.98, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "1g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 4.12, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.1, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "0.44mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.92, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "2\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.21, 
+              "title": "Vitamin K"
+            }, 
+            {
+              "amount": "0.3\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.97, 
+              "title": "Vitamin D"
+            }, 
+            {
+              "amount": "65IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.3, 
+              "title": "Vitamin A"
+            }
+          ], 
+          "protein": "28g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 133.5, 
+        "readyInMinutes": 45, 
+        "servings": 4, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "http://www.foodista.com/recipe/T8GTKBVP/jens-swedish-meatballs", 
+        "spoonacularScore": 47.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/jens-swedish-meatballs-648565", 
+        "summary": "The recipe Jen's Swedish Meatballs is ready <b>in around 45 minutes</b> and is definitely an excellent <b>dairy free</b> option for lovers of Scandinavian food. This recipe makes 4 servings with <b>464 calories</b>, <b>29g of protein</b>, and <b>33g of fat</b> each. For <b>$1.34 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. 1 person has made this recipe and would make it again. A mixture of beef, breadcrumbs, pork, and a handful of other ingredients are all it takes to make this recipe so flavorful. To use up the egg you could follow this main course with the <a href=\"https://spoonacular.com/recipes/rose-levy-beranbaums-chocolate-tomato-cake-with-mystery-ganache-27408\">Rose Levy Beranbaum's Chocolate Tomato Cake with Mystery Ganache</a> as a dessert. Not a lot of people really liked this main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 50%</b>. This score is pretty good. Try <a href=\"https://spoonacular.com/recipes/swedish-meatballs-ikea-meatballs-911363\">Swedish Meatballs (Ikea Meatballs)</a>, <a href=\"https://spoonacular.com/recipes/swedish-meatballs-497719\">Swedish Meatballs</a>, and <a href=\"https://spoonacular.com/recipes/swedish-meatballs-495971\">Swedish Meatballs</a> for similar recipes.", 
+        "sustainable": false, 
+        "title": "Jen's Swedish Meatballs", 
+        "vegan": false, 
+        "vegetarian": false, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 14, 
+        "winePairing": {}
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404771, 
+                    "image": "food-processor.png", 
+                    "localizedName": "food processor", 
+                    "name": "food processor"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 1129, 
+                    "image": "hard-boiled-egg.png", 
+                    "localizedName": "hard boiled egg", 
+                    "name": "hard boiled egg"
+                  }, 
+                  {
+                    "id": 1102047, 
+                    "image": "salt-and-pepper.jpg", 
+                    "localizedName": "salt and pepper", 
+                    "name": "salt and pepper"
+                  }, 
+                  {
+                    "id": 18070, 
+                    "image": "toast", 
+                    "localizedName": "toast", 
+                    "name": "toast"
+                  }, 
+                  {
+                    "id": 4025, 
+                    "image": "mayonnaise.png", 
+                    "localizedName": "mayonnaise", 
+                    "name": "mayonnaise"
+                  }, 
+                  {
+                    "id": 1056, 
+                    "image": "sour-cream.jpg", 
+                    "localizedName": "sour cream", 
+                    "name": "sour cream"
+                  }, 
+                  {
+                    "id": 11168, 
+                    "image": "corn.png", 
+                    "localizedName": "corn", 
+                    "name": "corn"
+                  }, 
+                  {
+                    "id": 11297, 
+                    "image": "parsley.jpg", 
+                    "localizedName": "parsley", 
+                    "name": "parsley"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "crust", 
+                    "name": "crust"
+                  }, 
+                  {
+                    "id": 10015121, 
+                    "image": "canned-tuna.png", 
+                    "localizedName": "tuna", 
+                    "name": "tuna"
+                  }
+                ], 
+                "number": 1, 
+                "step": "In a food processor blend tuna, sweetcorn, mayonnaise, sour cream, hard-boiled eggs, salt and pepper. Process until smooth.Wash and finely chop parsley.On a serving tray (or a square cake board) layer 4 slices of toast bread (crust removed) to create a square."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "spread", 
+                    "name": "spread"
+                  }
+                ], 
+                "number": 2, 
+                "step": "Spread a few (3-"
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "spread", 
+                    "name": "spread"
+                  }, 
+                  {
+                    "id": 18064, 
+                    "image": "white-bread.jpg", 
+                    "localizedName": "bread", 
+                    "name": "bread"
+                  }, 
+                  {
+                    "id": 10015121, 
+                    "image": "canned-tuna.png", 
+                    "localizedName": "tuna", 
+                    "name": "tuna"
+                  }
+                ], 
+                "number": 3, 
+                "step": "heaped table spoons of the tuna mix over the bread and spread around evenly."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404642, 
+                    "image": "spatula-or-turner.jpg", 
+                    "localizedName": "spatula", 
+                    "name": "spatula"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 4025, 
+                    "image": "mayonnaise.png", 
+                    "localizedName": "mayonnaise", 
+                    "name": "mayonnaise"
+                  }, 
+                  {
+                    "id": 1056, 
+                    "image": "sour-cream.jpg", 
+                    "localizedName": "sour cream", 
+                    "name": "sour cream"
+                  }, 
+                  {
+                    "id": 11297, 
+                    "image": "parsley.jpg", 
+                    "localizedName": "parsley", 
+                    "name": "parsley"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "spread", 
+                    "name": "spread"
+                  }, 
+                  {
+                    "id": 18064, 
+                    "image": "white-bread.jpg", 
+                    "localizedName": "bread", 
+                    "name": "bread"
+                  }, 
+                  {
+                    "id": 10015121, 
+                    "image": "canned-tuna.png", 
+                    "localizedName": "tuna", 
+                    "name": "tuna"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Sprinkle some parsley over the spread and cover with bread. Repeat the process until you have used all bread slices (and used all the tuna mix).Keep it in the fridge for several hours (at least 2 but for best results overnight).The following day, mix sour cream with mayonnaise and cover the cake using a spatula."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 11291, 
+                    "image": "spring-onions.jpg", 
+                    "localizedName": "spring onions", 
+                    "name": "spring onions"
+                  }, 
+                  {
+                    "id": 11206, 
+                    "image": "cucumber.jpg", 
+                    "localizedName": "cucumber", 
+                    "name": "cucumber"
+                  }, 
+                  {
+                    "id": 11529, 
+                    "image": "tomato.png", 
+                    "localizedName": "tomato", 
+                    "name": "tomato"
+                  }, 
+                  {
+                    "id": 1041009, 
+                    "image": "cheddar-cheese.png", 
+                    "localizedName": "cheese", 
+                    "name": "cheese"
+                  }, 
+                  {
+                    "id": 9150, 
+                    "image": "lemon.png", 
+                    "localizedName": "lemon", 
+                    "name": "lemon"
+                  }, 
+                  {
+                    "id": 2045, 
+                    "image": "dill.jpg", 
+                    "localizedName": "dill", 
+                    "name": "dill"
+                  }
+                ], 
+                "number": 5, 
+                "step": "Sprinkle with grated cheese and chopped spring onion (the green parts only).Thinly slice the cucumber, tomatoes, and lemon. Decorate your cake with these and some dill sprigs.Keep in the fridge prior to serving!"
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "Nordic", 
+          "Scandinavian", 
+          "European"
+        ], 
+        "dairyFree": false, 
+        "diets": [
+          "pescatarian"
+        ], 
+        "dishTypes": [], 
+        "extendedIngredients": [
+          {
+            "aisle": "Canned and Jarred", 
+            "amount": 350.0, 
+            "consistency": "solid", 
+            "id": 10115121, 
+            "image": "canned-tuna.png", 
+            "measures": {
+              "metric": {
+                "amount": 350.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 12.346, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "canned"
+            ], 
+            "metaInformation": [
+              "canned"
+            ], 
+            "name": "tuna", 
+            "nameClean": "canned tuna", 
+            "original": "350g Canned Tuna", 
+            "originalName": "Canned Tuna", 
+            "originalString": "350g Canned Tuna", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Condiments", 
+            "amount": 150.0, 
+            "consistency": "liquid", 
+            "id": 4025, 
+            "image": "mayonnaise.png", 
+            "measures": {
+              "metric": {
+                "amount": 150.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 5.291, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "mayonnaise", 
+            "nameClean": "mayonnaise", 
+            "original": "150g Mayonnaise", 
+            "originalName": "Mayonnaise", 
+            "originalString": "150g Mayonnaise", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 100.0, 
+            "consistency": "solid", 
+            "id": 1056, 
+            "image": "sour-cream.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 100.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 3.527, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "sour"
+            ], 
+            "metaInformation": [
+              "sour"
+            ], 
+            "name": "cream", 
+            "nameClean": "sour cream", 
+            "original": "100g Sour Cream", 
+            "originalName": "Sour Cream", 
+            "originalString": "100g Sour Cream", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 60.0, 
+            "consistency": "solid", 
+            "id": 11168, 
+            "image": "corn.png", 
+            "measures": {
+              "metric": {
+                "amount": 60.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 2.116, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "sweet"
+            ], 
+            "metaInformation": [
+              "sweet"
+            ], 
+            "name": "corn", 
+            "nameClean": "corn", 
+            "original": "60g Sweet Corn", 
+            "originalName": "Sweet Corn", 
+            "originalString": "60g Sweet Corn", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 1129, 
+            "image": "hard-boiled-egg.png", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "hard", 
+              "boiled"
+            ], 
+            "metaInformation": [
+              "hard", 
+              "boiled"
+            ], 
+            "name": "eggs", 
+            "nameClean": "hard boiled egg", 
+            "original": "2 Hard Boiled Eggs", 
+            "originalName": "Hard Boiled Eggs", 
+            "originalString": "2 Hard Boiled Eggs", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 16.0, 
+            "consistency": "solid", 
+            "id": 11291, 
+            "image": "spring-onions.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 16.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 16.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "spring onion", 
+            "nameClean": "spring onions", 
+            "original": "Spring Onion", 
+            "originalName": "Spring Onion", 
+            "originalString": "Spring Onion", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 16.0, 
+            "consistency": "solid", 
+            "id": 1102047, 
+            "image": "salt-and-pepper.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 16.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 16.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [
+              "to taste"
+            ], 
+            "metaInformation": [
+              "to taste"
+            ], 
+            "name": "salt and pepper", 
+            "nameClean": "salt and pepper", 
+            "original": "Salt and Pepper to taste", 
+            "originalName": "Salt and Pepper to taste", 
+            "originalString": "Salt and Pepper to taste", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Produce;Spices and Seasonings", 
+            "amount": 16.0, 
+            "consistency": "solid", 
+            "id": 11297, 
+            "image": "parsley.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 16.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 16.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [
+              "fresh"
+            ], 
+            "metaInformation": [
+              "fresh"
+            ], 
+            "name": "parsley", 
+            "nameClean": "parsley", 
+            "original": "Fresh Parsley", 
+            "originalName": "Fresh Parsley", 
+            "originalString": "Fresh Parsley", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Gluten Free", 
+            "amount": 16.0, 
+            "consistency": "solid", 
+            "id": 18069, 
+            "image": "white-bread.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 16.0, 
+                "unitLong": "slices", 
+                "unitShort": "slice"
+              }, 
+              "us": {
+                "amount": 16.0, 
+                "unitLong": "slices", 
+                "unitShort": "slice"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "sandwich bread", 
+            "nameClean": "gluten free white sandwich bread", 
+            "original": "16 slices sandwich bread", 
+            "originalName": "sandwich bread", 
+            "originalString": "16 slices sandwich bread", 
+            "unit": "slices"
+          }, 
+          {
+            "aisle": "Cheese", 
+            "amount": 60.0, 
+            "consistency": "solid", 
+            "id": 1011026, 
+            "image": "cheddar-cheese.png", 
+            "measures": {
+              "metric": {
+                "amount": 60.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 2.116, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "shredded"
+            ], 
+            "metaInformation": [
+              "shredded"
+            ], 
+            "name": "cheese", 
+            "nameClean": "shredded cheese", 
+            "original": "60g shredded cheese", 
+            "originalName": "shredded cheese", 
+            "originalString": "60g shredded cheese", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 6.0, 
+            "consistency": "solid", 
+            "id": 11529, 
+            "image": "tomato.png", 
+            "measures": {
+              "metric": {
+                "amount": 6.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 6.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "tomatoes", 
+            "nameClean": "tomato", 
+            "original": "6 Small Tomatoes", 
+            "originalName": "Small Tomatoes", 
+            "originalString": "6 Small Tomatoes", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 11206, 
+            "image": "cucumber.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "cucumber", 
+            "nameClean": "cucumber", 
+            "original": "1 Small Cucumber", 
+            "originalName": "Small Cucumber", 
+            "originalString": "1 Small Cucumber", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 9150, 
+            "image": "lemon.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "lemon", 
+            "nameClean": "lemon", 
+            "original": "1 lemon", 
+            "originalName": "lemon", 
+            "originalString": "1 lemon", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Produce;Spices and Seasonings", 
+            "amount": 3.0, 
+            "consistency": "solid", 
+            "id": 2045, 
+            "image": "dill.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 3.0, 
+                "unitLong": "sprigs", 
+                "unitShort": "sprigs"
+              }, 
+              "us": {
+                "amount": 3.0, 
+                "unitLong": "sprigs", 
+                "unitShort": "sprigs"
+              }
+            }, 
+            "meta": [
+              "fresh"
+            ], 
+            "metaInformation": [
+              "fresh"
+            ], 
+            "name": "dill", 
+            "nameClean": "dill", 
+            "original": "3 sprigs fresh dill", 
+            "originalName": "fresh dill", 
+            "originalString": "3 sprigs fresh dill", 
+            "unit": "sprigs"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 10.0, 
+        "id": 1095945, 
+        "image": "https://spoonacular.com/recipeImages/1095945-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "<ol><li>In a food processor blend tuna, sweetcorn, mayonnaise, sour cream, hard-boiled eggs, salt and pepper. Process until smooth.</li><li>Wash and finely chop parsley.</li><li>On a serving tray (or a square cake board) layer 4 slices of toast bread (crust removed) to create a square.</li><li>Spread a few (3-4) heaped table spoons of the tuna mix over the bread and spread around evenly. Sprinkle some parsley over the spread and cover with bread. Repeat the process until you have used all bread slices (and used all the tuna mix).</li><li>Keep it in the fridge for several hours (at least 2 but for best results overnight).</li><li>The following day, mix sour cream with mayonnaise and cover the cake using a spatula. Sprinkle with grated cheese and chopped spring onion (the green parts only).</li><li>Thinly slice the cucumber, tomatoes, and lemon. Decorate your cake with these and some dill sprigs.</li><li>Keep in the fridge prior to serving!</li></ol>", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "201k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.06, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "11g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.92, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "2g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 17.29, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "16g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.65, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "3g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 4.13, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "41mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.78, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "472mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 20.54, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "201k", 
+          "carbs": "16g", 
+          "expires": 1637917546513, 
+          "fat": "11g", 
+          "good": [
+            {
+              "amount": "9g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 18.65, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "98\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 93.93, 
+              "title": "Vitamin K"
+            }, 
+            {
+              "amount": "23\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 34.25, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "17mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 20.9, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "3mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 19.31, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "924IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 18.49, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "53\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.42, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "0.25mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 12.39, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "0.74\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 12.36, 
+              "title": "Vitamin B12"
+            }, 
+            {
+              "amount": "0.18mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 12.27, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "117mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.75, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "112mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.29, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.77, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "0.16mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.42, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "0.17mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 8.46, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "280mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 8.02, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "1g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.71, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "25mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.36, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "0.86mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.77, 
+              "title": "Vitamin E"
+            }, 
+            {
+              "amount": "0.78mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.19, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "0.1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.11, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "0.45mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 4.45, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "0.46\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.06, 
+              "title": "Vitamin D"
+            }
+          ], 
+          "isStale": true, 
+          "protein": "9g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 81.51, 
+        "readyInMinutes": 165, 
+        "servings": 16, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "https://www.foodista.com/recipe/T8QQP7SK/savory-tuna-sandwich-cake-swedish-sm-rg-st-rta", 
+        "spoonacularScore": 45.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/tuna-sandwich-savory-cake-swedish-smoergstrta-1095945", 
+        "summary": "The recipe Tuna Sandwich Savory Cake (Swedish Sm\u00f6rg\u00e5st\u00e5rta) could satisfy your Scandinavian craving in roughly <b>2 hours and 45 minutes</b>. Watching your figure? This pescatarian recipe has <b>201 calories</b>, <b>9g of protein</b>, and <b>11g of fat</b> per serving. This recipe serves 16. For <b>82 cents per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista requires canned tuna, mayonnaise, eggs, and tomatoes. 1 person found this recipe to be yummy and satisfying. Taking all factors into account, this recipe <b>earns a spoonacular score of 56%</b>, which is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/amys-savory-sandwich-cake-smorgastarta-552896\">Amy\u2019s Savory Sandwich Cake (Smorgastarta)</a>, <a href=\"https://spoonacular.com/recipes/smorgastarta-swedish-sandwich-torte-88858\">Smorgastarta - Swedish Sandwich Torte</a>, and <a href=\"https://spoonacular.com/recipes/swedish-sandwich-from-a-summer-place-138067\">Swedish Sandwich from a Summer Place</a>.", 
+        "sustainable": false, 
+        "title": "Tuna Sandwich Savory Cake (Swedish Sm\u00f6rg\u00e5st\u00e5rta)", 
+        "vegan": false, 
+        "vegetarian": false, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 5, 
+        "winePairing": {
+          "pairedWines": [
+            "merlot", 
+            "pinot noir", 
+            "rose wine"
+          ], 
+          "pairingText": "Tunan on the menu? Try pairing with Merlot, Pinot Noir, and ros\u00e9 Wine. Though fish is often paired with white wine, 'meatier' fish like tuna can absolutely go with red wine. A Ros\u00e9 will also pair nicely, particularly if your tunan is prepared with ingredients better suited to a white wine. The GEN5 Merlot with a 4.4 out of 5 star rating seems like a good match. It costs about 12 dollars per bottle.", 
+          "productMatches": [
+            {
+              "averageRating": 0.8800000000000001, 
+              "description": "#40 Wine Enthusiast Top 100 Best Buy of 2019", 
+              "id": 473552, 
+              "imageUrl": "https://spoonacular.com/productImages/473552-312x231.jpg", 
+              "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fgen5-merlot-2016%2F545509", 
+              "price": "$11.99", 
+              "ratingCount": 5.0, 
+              "score": 0.8175000000000001, 
+              "title": "GEN5 Merlot"
+            }
+          ]
+        }
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404783, 
+                    "image": "bowl.jpg", 
+                    "localizedName": "bowl", 
+                    "name": "bowl"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 1001, 
+                    "image": "butter-sliced.jpg", 
+                    "localizedName": "butter", 
+                    "name": "butter"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }
+                ], 
+                "length": {
+                  "number": 15, 
+                  "unit": "minutes"
+                }, 
+                "number": 1, 
+                "step": "Mix all the ingredients except the butter together and knead for about 15 minutes. The dough should be elastic, like chewing gum, and not sticky. It shouldn't stick to the sides of the bowl or the table."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 1001, 
+                    "image": "butter-sliced.jpg", 
+                    "localizedName": "butter", 
+                    "name": "butter"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }, 
+                  {
+                    "id": 20081, 
+                    "image": "flour.png", 
+                    "localizedName": "all purpose flour", 
+                    "name": "all purpose flour"
+                  }
+                ], 
+                "length": {
+                  "number": 75, 
+                  "unit": "minutes"
+                }, 
+                "number": 2, 
+                "step": "Add the 150 g. butter and knead for a further 15 minutes, until the butter is completely mixed with the rest of the dough. If the dough is too sticky or the butter begins to melt, add some flour, but try to avoid adding too much. Allow dough to heave for 1 - 1,5 hour, or until doubled."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "dinner-yeast-rolls.jpg", 
+                    "localizedName": "roll", 
+                    "name": "roll"
+                  }
+                ], 
+                "number": 3, 
+                "step": "After the dough has doubled, roll the dough out into a 30 x 15 cm rectangle."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 2010, 
+                    "image": "cinnamon.jpg", 
+                    "localizedName": "cinnamon", 
+                    "name": "cinnamon"
+                  }, 
+                  {
+                    "id": 1001, 
+                    "image": "butter-sliced.jpg", 
+                    "localizedName": "butter", 
+                    "name": "butter"
+                  }, 
+                  {
+                    "id": 19335, 
+                    "image": "sugar-in-bowl.png", 
+                    "localizedName": "sugar", 
+                    "name": "sugar"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Brush with the 100 g. melted butter, sprinkle with the cinnamon and sugar."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 1017063, 
+                    "image": "raw-pork-sausage.png", 
+                    "localizedName": "sausage", 
+                    "name": "sausage"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "dinner-yeast-rolls.jpg", 
+                    "localizedName": "roll", 
+                    "name": "roll"
+                  }
+                ], 
+                "length": {
+                  "number": 60, 
+                  "unit": "minutes"
+                }, 
+                "number": 5, 
+                "step": "Roll the dough into a sausage, and slice the sausage into 24 pieces. Press each piece down and let heave for 1 hour."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven", 
+                    "temperature": {
+                      "number": 175.0, 
+                      "unit": "Celsius"
+                    }
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "glaze", 
+                    "name": "glaze"
+                  }, 
+                  {
+                    "id": 1123, 
+                    "image": "egg.png", 
+                    "localizedName": "egg", 
+                    "name": "egg"
+                  }
+                ], 
+                "length": {
+                  "number": 15, 
+                  "unit": "minutes"
+                }, 
+                "number": 6, 
+                "step": "Brush with egg glaze and bake at 175C for 15 minutes, or until golden brown."
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "Nordic", 
+          "Scandinavian", 
+          "European"
+        ], 
+        "dairyFree": false, 
+        "diets": [
+          "lacto ovo vegetarian"
+        ], 
+        "dishTypes": [], 
+        "extendedIngredients": [
+          {
+            "aisle": "Baking", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 20081, 
+            "image": "flour.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "kg", 
+                "unitShort": "kg"
+              }, 
+              "us": {
+                "amount": 2.205, 
+                "unitLong": "pounds", 
+                "unitShort": "lb"
+              }
+            }, 
+            "meta": [
+              "white"
+            ], 
+            "metaInformation": [
+              "white"
+            ], 
+            "name": "white flour", 
+            "nameClean": "wheat flour", 
+            "original": "1 kg white flour", 
+            "originalName": "white flour", 
+            "originalString": "1 kg white flour", 
+            "unit": "kg"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 0.5, 
+            "consistency": "liquid", 
+            "id": 1077, 
+            "image": "milk.png", 
+            "measures": {
+              "metric": {
+                "amount": 0.5, 
+                "unitLong": "liters", 
+                "unitShort": "l"
+              }, 
+              "us": {
+                "amount": 2.113, 
+                "unitLong": "cups", 
+                "unitShort": "cups"
+              }
+            }, 
+            "meta": [
+              "whole", 
+              "cold"
+            ], 
+            "metaInformation": [
+              "whole", 
+              "cold"
+            ], 
+            "name": "whole milk", 
+            "nameClean": "milk", 
+            "original": "1/2 liter cold whole milk", 
+            "originalName": "cold whole milk", 
+            "originalString": "1/2 liter cold whole milk", 
+            "unit": "liter"
+          }, 
+          {
+            "aisle": "Baking", 
+            "amount": 150.0, 
+            "consistency": "solid", 
+            "id": 19335, 
+            "image": "sugar-in-bowl.png", 
+            "measures": {
+              "metric": {
+                "amount": 150.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 5.291, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "sugar", 
+            "nameClean": "sugar", 
+            "original": "150 g sugar", 
+            "originalName": "sugar", 
+            "originalString": "150 g sugar", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 15.0, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 15.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 0.529, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "15 g salt", 
+            "originalName": "salt", 
+            "originalString": "15 g salt", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 15.0, 
+            "consistency": "solid", 
+            "id": 2006, 
+            "image": "cardamom.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 15.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 0.529, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "cardamom", 
+            "nameClean": "cardamom", 
+            "original": "15 g cardamom", 
+            "originalName": "cardamom", 
+            "originalString": "15 g cardamom", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 1123, 
+            "image": "egg.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "large", 
+                "unitShort": "large"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "large", 
+                "unitShort": "large"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "egg", 
+            "nameClean": "egg", 
+            "original": "1 large egg", 
+            "originalName": "egg", 
+            "originalString": "1 large egg", 
+            "unit": "large"
+          }, 
+          {
+            "aisle": "Refrigerated", 
+            "amount": 50.0, 
+            "consistency": "solid", 
+            "id": 18374, 
+            "image": "yeast-fresh.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 50.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 1.764, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "fresh"
+            ], 
+            "metaInformation": [
+              "fresh"
+            ], 
+            "name": "fresh yeast", 
+            "nameClean": "fresh yeast", 
+            "original": "50 g fresh yeast", 
+            "originalName": "fresh yeast", 
+            "originalString": "50 g fresh yeast", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 150.0, 
+            "consistency": "solid", 
+            "id": 1001, 
+            "image": "butter-sliced.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 150.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 5.291, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "cubed"
+            ], 
+            "metaInformation": [
+              "cubed"
+            ], 
+            "name": "butter", 
+            "nameClean": "butter", 
+            "original": "150 g butter, cubed", 
+            "originalName": "butter, cubed", 
+            "originalString": "150 g butter, cubed", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 1123, 
+            "image": "egg.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "for glazing"
+            ], 
+            "metaInformation": [
+              "for glazing"
+            ], 
+            "name": "egg", 
+            "nameClean": "egg", 
+            "original": "1 egg, for glazing", 
+            "originalName": "egg, for glazing", 
+            "originalString": "1 egg, for glazing", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 100.0, 
+            "consistency": "solid", 
+            "id": 1001, 
+            "image": "butter-sliced.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 100.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 3.527, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "melted"
+            ], 
+            "metaInformation": [
+              "melted"
+            ], 
+            "name": "butter", 
+            "nameClean": "butter", 
+            "original": "100 g butter, melted", 
+            "originalName": "butter, melted", 
+            "originalString": "100 g butter, melted", 
+            "unit": "g"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 10219335, 
+            "image": "cinnamon-sugar.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "serving", 
+                "unitShort": "serving"
+              }
+            }, 
+            "meta": [
+              "as needed"
+            ], 
+            "metaInformation": [
+              "as needed"
+            ], 
+            "name": "cinnamon sugar", 
+            "nameClean": "cinnamon sugar", 
+            "original": "Cinnamon and sugar, as needed", 
+            "originalName": "Cinnamon and sugar, as needed", 
+            "originalString": "Cinnamon and sugar, as needed", 
+            "unit": "serving"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 3.0, 
+        "id": 660225, 
+        "image": "https://spoonacular.com/recipeImages/660225-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "1.Mix all the ingredients except the butter together and knead for about 15 minutes. The dough should be elastic, like chewing gum, and not sticky. It shouldn't stick to the sides of the bowl or the table.\n2.Add the 150 g. butter and knead for a further 15 minutes, until the butter is completely mixed with the rest of the dough. If the dough is too sticky or the butter begins to melt, add some flour, but try to avoid adding too much. Allow dough to heave for 1 - 1,5 hour, or until doubled.\n3.After the dough has doubled, roll the dough out into a 30 x 15 cm rectangle. Brush with the 100 g. melted butter, sprinkle with the cinnamon and sugar. Roll the dough into a sausage, and slice the sausage into 24 pieces. Press each piece down and let heave for 1 hour. Brush with egg glaze and bake at 175C for 15 minutes, or until golden brown.", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "274k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.75, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "9g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 15.37, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "5g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 37.1, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "40g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.46, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "7g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 8.8, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "39mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.02, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "332mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 14.47, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "274k", 
+          "carbs": "40g", 
+          "expires": 1641999668757, 
+          "fat": "9g", 
+          "good": [
+            {
+              "amount": "5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.57, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "0.38mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 25.28, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "95\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 23.95, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "16\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 23.45, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "0.47mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 23.31, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "0.29mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 16.97, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 13.74, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "2mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 12.06, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "80mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 8.09, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "315IU", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.3, 
+              "title": "Vitamin A"
+            }, 
+            {
+              "amount": "1g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.88, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "0.68mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 4.56, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "0.43mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 4.34, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "37mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.75, 
+              "title": "Calcium"
+            }, 
+            {
+              "amount": "0.07mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.71, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "14mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.55, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "0.51\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.37, 
+              "title": "Vitamin D"
+            }, 
+            {
+              "amount": "99mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.85, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "0.15\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.44, 
+              "title": "Vitamin B12"
+            }, 
+            {
+              "amount": "0.04mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.16, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "0.32mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.15, 
+              "title": "Vitamin E"
+            }
+          ], 
+          "protein": "5g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 48.4, 
+        "readyInMinutes": 45, 
+        "servings": 24, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "https://www.foodista.com/recipe/CMYKG2RP/skillingsbollar-norwegian-cinnamon-and-sugar-rolls", 
+        "spoonacularScore": 26.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/skillingsbollar-norwegian-cinnamon-and-sugar-rolls-660225", 
+        "summary": "The recipe Skillingsbollar - Norwegian Cinnamon and Sugar Rolls is ready <b>in roughly about 45 minutes</b> and is definitely a spectacular <b>lacto ovo vegetarian</b> option for lovers of Scandinavian food. For <b>48 cents per serving</b>, this recipe <b>covers 8%</b> of your daily requirements of vitamins and minerals. One serving contains <b>275 calories</b>, <b>6g of protein</b>, and <b>10g of fat</b>. This recipe serves 24. Head to the store and pick up butter, egg, yeast, and a few other things to make it today. This recipe from Foodista has 1 fans. Overall, this recipe earns a <b>rather bad spoonacular score of 22%</b>. <a href=\"https://spoonacular.com/recipes/skillingsboller-norwegian-cinnamon-rolls-619927\">Skillingsboller/ Norwegian Cinnamon rolls</a>, <a href=\"https://spoonacular.com/recipes/cinnamon-sugar-pancake-rolls-540578\">Cinnamon Sugar Pancake Rolls</a>, and <a href=\"https://spoonacular.com/recipes/cinnamon-sugar-pumpkin-rolls-683054\">Cinnamon Sugar Pumpkin Rolls</a> are very similar to this recipe.", 
+        "sustainable": false, 
+        "title": "Skillingsbollar - Norwegian Cinnamon and Sugar Rolls", 
+        "vegan": false, 
+        "vegetarian": true, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 10, 
+        "winePairing": {}
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 18375, 
+                    "image": "yeast-granules.jpg", 
+                    "localizedName": "dry yeast", 
+                    "name": "dry yeast"
+                  }, 
+                  {
+                    "id": 2037, 
+                    "image": "saffron.jpg", 
+                    "localizedName": "saffron", 
+                    "name": "saffron"
+                  }, 
+                  {
+                    "id": 1001, 
+                    "image": "butter-sliced.jpg", 
+                    "localizedName": "butter", 
+                    "name": "butter"
+                  }, 
+                  {
+                    "id": 19335, 
+                    "image": "sugar-in-bowl.png", 
+                    "localizedName": "sugar", 
+                    "name": "sugar"
+                  }, 
+                  {
+                    "id": 1077, 
+                    "image": "milk.png", 
+                    "localizedName": "milk", 
+                    "name": "milk"
+                  }
+                ], 
+                "number": 1, 
+                "step": "Grind the saffron with a tablespoon of sugar, until completely dissolved.Melt the butter and add the milk and the saffron, it needs to be lukewarm (or slightly warmer if you are using dry yeast)."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 18375, 
+                    "image": "yeast-granules.jpg", 
+                    "localizedName": "yeast", 
+                    "name": "yeast"
+                  }
+                ], 
+                "number": 2, 
+                "step": "Mix the yeast with a little bit of the fluid, to dissolve it."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 221439, 
+                    "image": "dish-towel.jpg", 
+                    "localizedName": "kitchen towels", 
+                    "name": "kitchen towels"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }, 
+                  {
+                    "id": 20081, 
+                    "image": "flour.png", 
+                    "localizedName": "all purpose flour", 
+                    "name": "all purpose flour"
+                  }, 
+                  {
+                    "id": 19335, 
+                    "image": "sugar-in-bowl.png", 
+                    "localizedName": "sugar", 
+                    "name": "sugar"
+                  }, 
+                  {
+                    "id": 2047, 
+                    "image": "salt.jpg", 
+                    "localizedName": "salt", 
+                    "name": "salt"
+                  }, 
+                  {
+                    "id": 14355, 
+                    "image": "tea-bags.jpg", 
+                    "localizedName": "tea", 
+                    "name": "tea"
+                  }
+                ], 
+                "length": {
+                  "number": 30, 
+                  "unit": "minutes"
+                }, 
+                "number": 3, 
+                "step": "Add the sugar, salt and most of the flour.Work it till a soft, smooth dough.Leave to rest for about 30 min under a tea towel.Work the dough gently and for two big logs."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 1017063, 
+                    "image": "raw-pork-sausage.png", 
+                    "localizedName": "sausage", 
+                    "name": "sausage"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "dinner-yeast-rolls.jpg", 
+                    "localizedName": "roll", 
+                    "name": "roll"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Cut into strips and form into sausage shapes.Working from both sides at ones roll towards the middle to form a tight S-shape."
+              }, 
+              {
+                "equipment": [], 
+                "ingredients": [
+                  {
+                    "id": 9299, 
+                    "image": "raisins.jpg", 
+                    "localizedName": "raisins", 
+                    "name": "raisins"
+                  }, 
+                  {
+                    "id": 1123, 
+                    "image": "egg.png", 
+                    "localizedName": "egg", 
+                    "name": "egg"
+                  }
+                ], 
+                "length": {
+                  "number": 30, 
+                  "unit": "minutes"
+                }, 
+                "number": 5, 
+                "step": "Place two raisins in the centre of each \"curl\" (see photo).Leave to rest again for a further 30 min.Egg wash, to guarantee the most golden lustre."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven", 
+                    "temperature": {
+                      "number": 225.0, 
+                      "unit": "Celsius"
+                    }
+                  }
+                ], 
+                "ingredients": [], 
+                "length": {
+                  "number": 10, 
+                  "unit": "minutes"
+                }, 
+                "number": 6, 
+                "step": "Bake in the oven 225C for 5-10 min."
+              }
+            ]
+          }
+        ], 
+        "cheap": false, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "Nordic", 
+          "Scandinavian", 
+          "European"
+        ], 
+        "dairyFree": false, 
+        "diets": [
+          "lacto ovo vegetarian"
+        ], 
+        "dishTypes": [
+          "antipasti", 
+          "starter", 
+          "snack", 
+          "appetizer", 
+          "antipasto", 
+          "hor d'oeuvre"
+        ], 
+        "extendedIngredients": [
+          {
+            "aisle": "Baking", 
+            "amount": 50.0, 
+            "consistency": "solid", 
+            "id": 18375, 
+            "image": "yeast-granules.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 50.0, 
+                "unitLong": "grams", 
+                "unitShort": "g"
+              }, 
+              "us": {
+                "amount": 1.764, 
+                "unitLong": "ounces", 
+                "unitShort": "oz"
+              }
+            }, 
+            "meta": [
+              "fresh", 
+              "dry", 
+              "(I prefer yeast, but works too)"
+            ], 
+            "metaInformation": [
+              "fresh", 
+              "dry", 
+              "(I prefer yeast, but works too)"
+            ], 
+            "name": "dry yeast", 
+            "nameClean": "dry yeast", 
+            "original": "50 grams yeast (I prefer fresh yeast, but dry works too)", 
+            "originalName": "yeast (I prefer fresh yeast, but dry works too)", 
+            "originalString": "50 grams yeast (I prefer fresh yeast, but dry works too)", 
+            "unit": "grams"
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 5.0, 
+            "consistency": "liquid", 
+            "id": 1077, 
+            "image": "milk.png", 
+            "measures": {
+              "metric": {
+                "amount": 5.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 5.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "milk", 
+            "nameClean": "milk", 
+            "original": "5 deciliters milk", 
+            "originalName": "deciliters milk", 
+            "originalString": "5 deciliters milk", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Baking", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 20081, 
+            "image": "flour.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "liter", 
+                "unitShort": "l"
+              }, 
+              "us": {
+                "amount": 1.057, 
+                "unitLong": "quarts", 
+                "unitShort": "qt"
+              }
+            }, 
+            "meta": [
+              "plain"
+            ], 
+            "metaInformation": [
+              "plain"
+            ], 
+            "name": "plain flour", 
+            "nameClean": "wheat flour", 
+            "original": "1 liter , 5 plain flour", 
+            "originalName": "5 plain flour", 
+            "originalString": "1 liter , 5 plain flour", 
+            "unit": "liter"
+          }, 
+          {
+            "aisle": "Dried Fruits;Produce;Baking", 
+            "amount": 100.0, 
+            "consistency": "solid", 
+            "id": 9299, 
+            "image": "raisins.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 100.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }, 
+              "us": {
+                "amount": 100.0, 
+                "unitLong": "servings", 
+                "unitShort": "servings"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "raisins", 
+            "nameClean": "raisins", 
+            "original": "raisins", 
+            "originalName": "raisins", 
+            "originalString": "raisins", 
+            "unit": "servings"
+          }, 
+          {
+            "aisle": "Ethnic Foods;Spices and Seasonings;Gourmet", 
+            "amount": 0.5, 
+            "consistency": "solid", 
+            "id": 2037, 
+            "image": "saffron.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 0.5, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }, 
+              "us": {
+                "amount": 0.5, 
+                "unitLong": "teaspoons", 
+                "unitShort": "tsps"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "saffron", 
+            "nameClean": "saffron", 
+            "original": "\u00bd tsp saffron", 
+            "originalName": "saffron", 
+            "originalString": "\u00bd tsp saffron", 
+            "unit": "tsp"
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "pinch", 
+                "unitShort": "pinch"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "pinch", 
+                "unitShort": "pinch"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "1 pinch a small of salt", 
+            "originalName": "a small of salt", 
+            "originalString": "1 pinch a small of salt", 
+            "unit": "pinch"
+          }, 
+          {
+            "aisle": "Baking", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 19335, 
+            "image": "sugar-in-bowl.png", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "sugar", 
+            "nameClean": "sugar", 
+            "original": "1 deciliter sugar", 
+            "originalName": "deciliter sugar", 
+            "originalString": "1 deciliter sugar", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Milk, Eggs, Other Dairy", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 1145, 
+            "image": "butter-sliced.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "Tbsps", 
+                "unitShort": "Tbsps"
+              }
+            }, 
+            "meta": [
+              "unsalted"
+            ], 
+            "metaInformation": [
+              "unsalted"
+            ], 
+            "name": "unsalted butter", 
+            "nameClean": "unsalted butter", 
+            "original": "2 tablespoons unsalted butter", 
+            "originalName": "unsalted butter", 
+            "originalString": "2 tablespoons unsalted butter", 
+            "unit": "tablespoons"
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 1.0, 
+        "id": 658970, 
+        "image": "https://spoonacular.com/recipeImages/658970-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "<ol><li>Grind the saffron with a tablespoon of sugar, until completely dissolved.</li><li>Melt the butter and add the milk and the saffron, it needs to be lukewarm (or slightly warmer if you are using dry yeast).</li><li>Mix the yeast with a little bit of the fluid, to dissolve it.</li><li>Add the sugar, salt and most of the flour.</li><li>Work it till a soft, smooth dough.</li><li>Leave to rest for about 30 min under a tea towel.</li><li>Work the dough gently and for two big logs.</li><li>Cut into strips and form into sausage shapes.</li><li>Working from both sides at ones roll towards the middle to form a tight S-shape.</li><li>Place two raisins in the centre of each \"curl\" (see photo).</li><li>Leave to rest again for a further 30 min.</li><li>Egg wash, to guarantee the most golden lustre.</li><li>Bake in the oven 225C for 5-10 min.</li></ol>", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "128k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.45, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "0.53g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.81, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "0.22g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 1.37, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "31g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 10.46, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "0.04g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 0.04, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "0.61mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.2, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "9mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.4, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "128k", 
+          "carbs": "31g", 
+          "expires": 1641999669455, 
+          "fat": "0.53g", 
+          "good": [
+            {
+              "amount": "2g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.99, 
+              "title": "Protein"
+            }, 
+            {
+              "amount": "0.17mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 11.14, 
+              "title": "Vitamin B1"
+            }, 
+            {
+              "amount": "2g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 9.78, 
+              "title": "Fiber"
+            }, 
+            {
+              "amount": "30\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.73, 
+              "title": "Folate"
+            }, 
+            {
+              "amount": "0.15mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.54, 
+              "title": "Manganese"
+            }, 
+            {
+              "amount": "263mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.52, 
+              "title": "Potassium"
+            }, 
+            {
+              "amount": "0.12mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 7.31, 
+              "title": "Vitamin B2"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 6.96, 
+              "title": "Iron"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.63, 
+              "title": "Vitamin B3"
+            }, 
+            {
+              "amount": "0.11mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.36, 
+              "title": "Copper"
+            }, 
+            {
+              "amount": "3\u00b5g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.16, 
+              "title": "Selenium"
+            }, 
+            {
+              "amount": "36mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.66, 
+              "title": "Phosphorus"
+            }, 
+            {
+              "amount": "0.07mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 3.42, 
+              "title": "Vitamin B6"
+            }, 
+            {
+              "amount": "11mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 2.87, 
+              "title": "Magnesium"
+            }, 
+            {
+              "amount": "1mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.97, 
+              "title": "Vitamin C"
+            }, 
+            {
+              "amount": "0.13mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.25, 
+              "title": "Vitamin B5"
+            }, 
+            {
+              "amount": "0.16mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.09, 
+              "title": "Zinc"
+            }, 
+            {
+              "amount": "10mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 1.02, 
+              "title": "Calcium"
+            }
+          ], 
+          "protein": "2g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 23.92, 
+        "readyInMinutes": 45, 
+        "servings": 100, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "http://www.foodista.com/recipe/SCH888VH/saffron-buns-swedish-lussebullar", 
+        "spoonacularScore": 17.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/saffron-buns-swedish-lussebullar-658970", 
+        "summary": "The recipe Saffron Buns - Swedish Lussebullar could satisfy your Scandinavian craving in about <b>45 minutes</b>. For <b>24 cents per serving</b>, this recipe <b>covers 4%</b> of your daily requirements of vitamins and minerals. This recipe makes 100 servings with <b>129 calories</b>, <b>2g of protein</b>, and <b>1g of fat</b> each. Not a lot of people made this recipe, and 1 would say it hit the spot. A mixture of yeast, butter, saffron, and a handful of other ingredients are all it takes to make this recipe so delicious. It is a good option if you're following a <b>vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 18%</b>. This score is rather bad. Try <a href=\"https://spoonacular.com/recipes/lussekatter-swedish-saffron-buns-834634\">Lussekatter (Swedish Saffron Buns)</a>, <a href=\"https://spoonacular.com/recipes/semlor-swedish-cream-buns-470187\">Semlor - Swedish Cream Buns</a>, and <a href=\"https://spoonacular.com/recipes/kanelbullar-swedish-cinnamon-buns-157545\">Kanelbullar - Swedish Cinnamon Buns</a> for similar recipes.", 
+        "sustainable": false, 
+        "title": "Saffron Buns - Swedish Lussebullar", 
+        "vegan": false, 
+        "vegetarian": true, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 1, 
+        "winePairing": {}
+      }, 
+      {
+        "aggregateLikes": 1, 
+        "analyzedInstructions": [
+          {
+            "name": "", 
+            "steps": [
+              {
+                "equipment": [
+                  {
+                    "id": 404783, 
+                    "image": "bowl.jpg", 
+                    "localizedName": "bowl", 
+                    "name": "bowl"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }, 
+                  {
+                    "id": 14412, 
+                    "image": "water.png", 
+                    "localizedName": "water", 
+                    "name": "water"
+                  }
+                ], 
+                "number": 1, 
+                "step": "In a bowl, mix all the dry ingredients together, then add the water. Blend well together until a homogenous dough is formed."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404727, 
+                    "image": "baking-sheet.jpg", 
+                    "localizedName": "baking sheet", 
+                    "name": "baking sheet"
+                  }, 
+                  {
+                    "id": 404770, 
+                    "image": "baking-paper.jpg", 
+                    "localizedName": "baking paper", 
+                    "name": "baking paper"
+                  }, 
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven", 
+                    "temperature": {
+                      "number": 160.0, 
+                      "unit": "Celsius"
+                    }
+                  }
+                ], 
+                "ingredients": [], 
+                "number": 2, 
+                "step": "Line two baking sheets with baking paper. Preheat a convection oven to 160C (320F)."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404727, 
+                    "image": "baking-sheet.jpg", 
+                    "localizedName": "baking sheet", 
+                    "name": "baking sheet"
+                  }, 
+                  {
+                    "id": 404642, 
+                    "image": "spatula-or-turner.jpg", 
+                    "localizedName": "spatula", 
+                    "name": "spatula"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "spread", 
+                    "name": "spread"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }
+                ], 
+                "number": 3, 
+                "step": "Using a spatula, divide the dough in two and spread each piece on the separate baking sheets."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404745, 
+                    "image": "chefs-knife.jpg", 
+                    "localizedName": "knife", 
+                    "name": "knife"
+                  }
+                ], 
+                "ingredients": [
+                  {
+                    "id": 0, 
+                    "image": "", 
+                    "localizedName": "spread", 
+                    "name": "spread"
+                  }, 
+                  {
+                    "id": 0, 
+                    "image": "pizza-dough", 
+                    "localizedName": "dough", 
+                    "name": "dough"
+                  }
+                ], 
+                "number": 4, 
+                "step": "Spread the dough evenly and divide into suitable pieces with a pizza roller or knife."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404727, 
+                    "image": "baking-sheet.jpg", 
+                    "localizedName": "baking sheet", 
+                    "name": "baking sheet"
+                  }, 
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven"
+                  }
+                ], 
+                "ingredients": [], 
+                "number": 5, 
+                "step": "Place one baking sheet at the bottom of the oven and the other one at the top."
+              }, 
+              {
+                "equipment": [
+                  {
+                    "id": 404784, 
+                    "image": "oven.jpg", 
+                    "localizedName": "oven", 
+                    "name": "oven"
+                  }
+                ], 
+                "ingredients": [], 
+                "length": {
+                  "number": 60, 
+                  "unit": "minutes"
+                }, 
+                "number": 6, 
+                "step": "Bake for 50-60 minutes. Halfway through the cooking time, change the position of the two sheets."
+              }
+            ]
+          }
+        ], 
+        "cheap": true, 
+        "creditsText": "Foodista.com \u2013 The Cooking Encyclopedia Everyone Can Edit", 
+        "cuisines": [
+          "Nordic", 
+          "Scandinavian", 
+          "European"
+        ], 
+        "dairyFree": true, 
+        "diets": [
+          "dairy free", 
+          "lacto ovo vegetarian", 
+          "vegan"
+        ], 
+        "dishTypes": [], 
+        "extendedIngredients": [
+          {
+            "aisle": "Health Foods;Baking", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 20064, 
+            "image": "brown-flour.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "()"
+            ], 
+            "metaInformation": [
+              "()"
+            ], 
+            "name": "rye flour", 
+            "nameClean": "rye flour", 
+            "original": "2 dl. (3/4 cup slightly rounded) rye flour", 
+            "originalName": "dl. (3/4 cup slightly rounded) rye flour", 
+            "originalString": "2 dl. (3/4 cup slightly rounded) rye flour", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Health Foods;Baking", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 93823, 
+            "image": "brown-flour.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "()"
+            ], 
+            "metaInformation": [
+              "()"
+            ], 
+            "name": "spelt flour", 
+            "nameClean": "spelt flour", 
+            "original": "2 dl. (3/4 cup slightly rounded) spelt flour", 
+            "originalName": "dl. (3/4 cup slightly rounded) spelt flour", 
+            "originalString": "2 dl. (3/4 cup slightly rounded) spelt flour", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Cereal", 
+            "amount": 4.0, 
+            "consistency": "solid", 
+            "id": 8120, 
+            "image": "rolled-oats.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 4.0, 
+                "unitLong": "mediums", 
+                "unitShort": "medium"
+              }, 
+              "us": {
+                "amount": 4.0, 
+                "unitLong": "mediums", 
+                "unitShort": "medium"
+              }
+            }, 
+            "meta": [
+              "()"
+            ], 
+            "metaInformation": [
+              "()"
+            ], 
+            "name": "oats", 
+            "nameClean": "rolled oats", 
+            "original": "4 dl. (1 1/2 cups slightly rounded) medium oats", 
+            "originalName": "dl. (1 1/2 cups slightly rounded) medium oats", 
+            "originalString": "4 dl. (1 1/2 cups slightly rounded) medium oats", 
+            "unit": "medium"
+          }, 
+          {
+            "aisle": "Savory Snacks", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 12036, 
+            "image": "sunflower-seeds.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "()"
+            ], 
+            "metaInformation": [
+              "()"
+            ], 
+            "name": "sunflower seeds", 
+            "nameClean": "sunflower kernels", 
+            "original": "2 dl. (3/4 cup slightly rounded) sunflower seeds", 
+            "originalName": "dl. (3/4 cup slightly rounded) sunflower seeds", 
+            "originalString": "2 dl. (3/4 cup slightly rounded) sunflower seeds", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Health Foods;Baking", 
+            "amount": 2.0, 
+            "consistency": "solid", 
+            "id": 10012220, 
+            "image": "flax-seeds.png", 
+            "measures": {
+              "metric": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 2.0, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "()"
+            ], 
+            "metaInformation": [
+              "()"
+            ], 
+            "name": "flax seeds", 
+            "nameClean": "flaxseed", 
+            "original": "2 dl. (3/4 cup slightly rounded) flax seeds", 
+            "originalName": "dl. (3/4 cup slightly rounded) flax seeds", 
+            "originalString": "2 dl. (3/4 cup slightly rounded) flax seeds", 
+            "unit": ""
+          }, 
+          {
+            "aisle": "Spices and Seasonings", 
+            "amount": 1.0, 
+            "consistency": "solid", 
+            "id": 2047, 
+            "image": "salt.jpg", 
+            "measures": {
+              "metric": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }, 
+              "us": {
+                "amount": 1.0, 
+                "unitLong": "teaspoon", 
+                "unitShort": "tsp"
+              }
+            }, 
+            "meta": [], 
+            "metaInformation": [], 
+            "name": "salt", 
+            "nameClean": "salt", 
+            "original": "1 tsp. salt", 
+            "originalName": "salt", 
+            "originalString": "1 tsp. salt", 
+            "unit": "tsp"
+          }, 
+          {
+            "aisle": "Beverages", 
+            "amount": 4.5, 
+            "consistency": "liquid", 
+            "id": 14412, 
+            "image": "water.png", 
+            "measures": {
+              "metric": {
+                "amount": 4.5, 
+                "unitLong": "", 
+                "unitShort": ""
+              }, 
+              "us": {
+                "amount": 4.5, 
+                "unitLong": "", 
+                "unitShort": ""
+              }
+            }, 
+            "meta": [
+              "()"
+            ], 
+            "metaInformation": [
+              "()"
+            ], 
+            "name": "water", 
+            "nameClean": "water", 
+            "original": "4.5-5 dl. (about 1 3/4 cup - 2 cups) water", 
+            "originalName": "dl. (about 1 3/4 cup - 2 cups) water", 
+            "originalString": "4.5-5 dl. (about 1 3/4 cup - 2 cups) water", 
+            "unit": ""
+          }
+        ], 
+        "gaps": "no", 
+        "glutenFree": false, 
+        "healthScore": 0.0, 
+        "id": 648980, 
+        "image": "https://spoonacular.com/recipeImages/648980-556x370.jpg", 
+        "imageType": "jpg", 
+        "instructions": "In a bowl, mix all the dry ingredients together, then add the water. Blend well together until a homogenous dough is formed.\nLine two baking sheets with baking paper. Preheat a convection oven to 160C (320F).\nUsing a spatula, divide the dough in two and spread each piece on the separate baking sheets. Spread the dough evenly and divide into suitable pieces with a pizza roller or knife.\nPlace one baking sheet at the bottom of the oven and the other one at the top. Bake for 50-60 minutes. Halfway through the cooking time, change the position of the two sheets.", 
+        "license": "CC BY 3.0", 
+        "lowFodmap": false, 
+        "nutrition": {
+          "bad": [
+            {
+              "amount": "2k", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.13, 
+              "title": "Calories"
+            }, 
+            {
+              "amount": "0.11g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.17, 
+              "title": "Fat"
+            }, 
+            {
+              "amount": "0.01g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 0.07, 
+              "title": "Saturated Fat"
+            }, 
+            {
+              "amount": "0.33g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.11, 
+              "title": "Carbohydrates"
+            }, 
+            {
+              "amount": "0.01g", 
+              "indented": true, 
+              "percentOfDailyNeeds": 0.01, 
+              "title": "Sugar"
+            }, 
+            {
+              "amount": "0.0mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0, 
+              "title": "Cholesterol"
+            }, 
+            {
+              "amount": "116mg", 
+              "indented": false, 
+              "percentOfDailyNeeds": 5.07, 
+              "title": "Sodium"
+            }
+          ], 
+          "calories": "2k", 
+          "carbs": "0.33g", 
+          "expires": 1634222737618, 
+          "fat": "0.11g", 
+          "good": [
+            {
+              "amount": "0.09g", 
+              "indented": false, 
+              "percentOfDailyNeeds": 0.18, 
+              "title": "Protein"
+            }
+          ], 
+          "isStale": true, 
+          "protein": "0.09g"
+        }, 
+        "occasions": [], 
+        "originalId": null, 
+        "pricePerServing": 0.32, 
+        "readyInMinutes": 45, 
+        "servings": 20, 
+        "sourceName": "Foodista", 
+        "sourceUrl": "https://www.foodista.com/recipe/RRBNCVY4/knekkebr-d-norwegian-crisp-bread", 
+        "spoonacularScore": 7.0, 
+        "spoonacularSourceUrl": "https://spoonacular.com/knekkebrd-norwegian-crisp-bread-648980", 
+        "summary": "The recipe Knekkebr\u00f8d: Norwegian Crisp Bread can be made <b>in approximately approximately 45 minutes</b>. For <b>0 cents per serving</b>, this recipe <b>covers 0%</b> of your daily requirements of vitamins and minerals. One serving contains <b>3 calories</b>, <b>0g of protein</b>, and <b>0g of fat</b>. This recipe serves 20. This recipe is typical of Scandinavian cuisine. This recipe from Foodista requires dl. rye flour, dl. water, dl. flax seeds, and salt. It is a good option if you're following a <b>dairy free, lacto ovo vegetarian, and vegan</b> diet. 1 person were glad they tried this recipe. Overall, this recipe earns a <b>very bad (but still fixable) spoonacular score of 1%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/julekakenorwegian-christmas-bread-488545\">Julekake:Norwegian Christmas Bread</a>, <a href=\"https://spoonacular.com/recipes/apple-crisp-bread-723541\">Apple Crisp Bread</a>, and <a href=\"https://spoonacular.com/recipes/mixed-seed-crisp-bread-144691\">Mixed Seed Crisp Bread</a>.", 
+        "sustainable": false, 
+        "title": "Knekkebr\u00f8d: Norwegian Crisp Bread", 
+        "vegan": true, 
+        "vegetarian": true, 
+        "veryHealthy": false, 
+        "veryPopular": false, 
+        "weightWatcherSmartPoints": 0, 
+        "winePairing": {
+          "pairedWines": [
+            "cream sherry", 
+            "moscato dasti", 
+            "port"
+          ], 
+          "pairingText": "Cream Sherry, Moscato d'Asti, and Port are great choices for Crisp. A common wine pairing rule is to make sure your wine is sweeter than your food. Delicate desserts go well with Moscato d'Asti, nutty desserts with cream sherry, and caramel or chocolate desserts pair well with port. The NV Solera Cream Sherry with a 4.5 out of 5 star rating seems like a good match. It costs about 17 dollars per bottle.", 
+          "productMatches": [
+            {
+              "averageRating": 0.9, 
+              "description": "The Solera Cream Sherry has a brilliant amber and deep copper hue. With butterscotch and pecan aromas, the sweet salted nut and brown spice aromas carry a complex caramel accent. A sweet entry leads to a rounded, lush, moderately full-bodied palate with a lengthy, flavorful finish.", 
+              "id": 428475, 
+              "imageUrl": "https://spoonacular.com/productImages/428475-312x231.jpg", 
+              "link": "https://www.amazon.com/NV-Solera-Cream-Sherry-750/dp/B00HSME8OW?tag=spoonacular-20", 
+              "price": "$16.99", 
+              "ratingCount": 4.0, 
+              "score": 0.823076923076923, 
+              "title": "NV Solera Cream Sherry"
+            }
+          ]
+        }
+      }
+    ]
+  }
