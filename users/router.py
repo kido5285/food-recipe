@@ -1,8 +1,11 @@
 import json
 import re
+from tracemalloc import start
+from turtle import pos
 from bson import ObjectId
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, session, redirect
 from flask.templating import render_template
+from passlib.hash import pbkdf2_sha256
 
 cuisines = ['african', 'american', 'british', 'cajun', 'caribbean', 'chinese', 'eastern european', 'european', 'french', 'german' ,'greek' ,'indian' ,'irish' ,'italian' ,'japanese' ,'jewish' ,'korean' ,'latin american', 'mediterranean' ,'mexican' ,'middle eastern' ,'nordic' ,'southern' ,'spanish' ,'thai' ,'vietnamese']
 
@@ -12,6 +15,22 @@ class JSONEncoder(json.JSONEncoder):
         if isinstance(o, ObjectId):
             return str(o)
         return json.JSONEncoder.default(self, o)
+
+def start_session(user):
+    del user['password']
+    session['logged_in'] = True
+    json = {
+        "username": user['username'],
+        "email": user['email'],
+        "createdRecipes": user['createdRecipes']
+    }
+    session['user'] = json
+    print(json, session['user'])
+    return 'started'
+
+def signout():
+    session.clear()
+    return redirect('/login')
 
 def outer_routes(app, db):
     @app.route('/getcuisine/<cuisine>', methods=['GET'])
@@ -75,8 +94,8 @@ def outer_routes(app, db):
         datadets = request.form.get('data-dets')
         if datadets == 'title':
             db[cuisine].update_one({'id': int(recipeid)}, {'$set' : {'title': content}})
-        elif datadets == 'spooncularScore':
-            db[cuisine].update_one({'id': int(recipeid)}, {'$set' : {'spooncularScore': content}})
+        elif datadets == 'spoonacularScore':
+            db[cuisine].update_one({'id': int(recipeid)}, {'$set' : {'spoonacularScore': content}})
         elif datadets == 'readyInMinutes':
             db[cuisine].update_one({'id': int(recipeid)}, {'$set' : {'readyInMinutes': content}})
         elif datadets == 'summary':
@@ -98,12 +117,12 @@ def outer_routes(app, db):
         elif datadets[:11] == 'ingredients':
             num = datadets.split('-')[1]
             selector = 'extendedIngredients.' + num
-            db[cuisine].update_one({'id': int(recipeid)}, {'$set' : {selector: content}})
+            db[cuisine].update_one({'id': int(recipeid)}, {'$set' : {selector: {'original': content}}})
         return jsonify('updated'), 200
     
     @app.route('/submitrecipe/', methods=['GET'])
     def submitrecipe():
-        return render_template('addrecipe.html')
+        return render_template('addrecipe.html', websession=session)
     
     @app.route('/submitpostrecipe', methods=['POST'])
     def postrecipe():
@@ -120,7 +139,57 @@ def outer_routes(app, db):
             "summary": request.form.get('summary'),
             "instructions": request.form.get('instructions'),
             "nutrition": json.loads(request.form.get('nutrition')),
-            "extendedIngredients": json.loads(request.form.get('extendedIngredients'))  
+            "extendedIngredients": json.loads(request.form.get('extendedIngredients')),
+            "creator": session['user']['username']
         }
+        db['users'].update_one({'username': session['user']['username']}, {'$push': {'createdRecipes': {"id": postrecipe['id'], "cuisine": postrecipe['cuisines'][0], "name": postrecipe['title'], "href": "/recipe/" + str(postrecipe['id']) + '/' + postrecipe['cuisines'][0]}}})
         db[cuisine].insert_one(postrecipe)
+        start_session(db['users'].find_one({'username': session['user']['username']}))
         return jsonify("Success"), 200
+
+    @app.route('/signup/', methods=['GET'])
+    def signup():
+        if session:
+            if session['logged_in']:
+                return redirect('/')
+            else:
+                return render_template('signup.html')
+        else:
+            return render_template('signup.html')
+    
+    @app.route('/login/', methods=['GET'])
+    def login():
+        if session:
+            if session['logged_in']:
+                return redirect('/')
+            else:
+                return render_template('signup.html')
+        else:
+            return render_template('login.html')
+
+    @app.route('/users/signup/', methods=['POST'])
+    def postsignup():
+        if db['users'].find_one({'username': request.form.get('username')}):
+            return jsonify('username already in use'), 406
+        elif db['users'].find_one({'email': request.form.get('email')}):
+            return jsonify('email already in use'), 406
+        else:
+            db['users'].insert_one({"username": request.form.get('username'), "email": request.form.get('email'), "password": pbkdf2_sha256.hash(request.form.get('password')), "createdRecipes": []})
+            return jsonify('success'), 200
+
+    @app.route('/users/login/', methods=['POST'])
+    def postlogin():
+        foundUser = db['users'].find_one({'username': request.form.get('username')})
+        print(foundUser)
+        if not foundUser:
+            return jsonify('username not found'), 406
+        else:
+            if pbkdf2_sha256.verify(request.form.get('password'), foundUser['password']):
+                start_session(foundUser)
+                return jsonify('success'), 200
+            else: 
+                return jsonify('password incorrect'), 406
+    
+    @app.route('/user/signout/', methods=['GET'])
+    def usersignout():
+        return signout()

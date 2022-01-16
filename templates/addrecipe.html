@@ -13,83 +13,87 @@
         <h1>Submit your recipe</h1>
     </section>
     <section id="submitrecipe">
-        <h2>Submit your recipe</h2>
-        <form class="submit-recipe-form">
-            <label for="title">title: </label>
-            <input type="text" id="title" for="title" placeholder="title" required>
-            <label for="ratings">Ratings: </label>
-            <div>
-                <input type="number" id="ratings" name="ratings" min="1" max="100" placeholder="approval ratings in %" required>  %
-            </div>
-            <label for="readyInMinutes">Estimated time to prepare meal: </label>
-            <input type="number" id="readyInMinutes" name="readyInMinutes" placeholder="estimated time in minutes" required>
-            <label for="cuisine">Cuisine</label>
-            <select name="cuisine" id="cuisine">
-                <option value="african">african</option>
-                <option value="american">american</option>
-                <option value="british">british</option>
-                <option value="cajun">cajun</option>
-                <option value="caribbean">caribbean</option>
-                <option value="chinese">chinese</option>
-                <option value="eastern european">eastern european</option>
-                <option value="european">european</option>
-                <option value="french">french</option>
-                <option value="german">german</option>
-                <option value="greek">greek</option>
-                <option value="irish">irish</option>
-                <option value="italian">italian</option>
-                <option value="japanese">japanese</option>
-                <option value="jewish">jewish</option>
-                <option value="korean">korean</option>
-                <option value="latin american">latin american</option>
-                <option value="mediterranean">mediterranean</option>
-                <option value="mexican">mexican</option>
-                <option value="middle eastern">middle eastern</option>
-                <option value="nordic">nordic</option>
-                <option value="southern">southern</option>
-                <option value="thai">thai</option>
-                <option value="vietnamese">vietnamese</option>
-            </select>
-            <label for="url">Image url: </label>
-            <input type="text" id="url" name="url" placeholder="meal image url" required>
-            <label for="summary">Summary: </label>
-            <textarea name="summary" id="summary" placeholder="summary"></textarea>
-            <label for="instruction">Instruction: </label>
-            <hr>
-            <div id="instruction" name="instruction" class="instruction">
-                <ol>
-                    <li contenteditable="true">Your First Step (click here to edit)</li>
-                </ol>
-                <button type="button" class="add-instruction"><i class="fas fa-plus"></i>  Add step</button>
-            </div>
-            <hr>
-            <label for="nutrition">Nutrition: </label>
-            <div class="nutrition">
-                <div class="good">
-                    <h3>Good Nutritions</h3>
-                    <ul class="good-list">
-                        <li><span class="title" contenteditable="true">Nutrition title(click to edit)</span><span class="amount" contenteditable="true">Nutrition amount(click to edit)</span></li>
-                    </ul>
-                    <button class="good-add" type="button"><i class="fas fa-plus"></i> Add Nutrition</button>
+        {% if websession['logged_in'] %}
+            <h2>Submit your recipe</h2>
+            <form class="submit-recipe-form">
+                <label for="title">title: </label>
+                <input type="text" id="title" for="title" placeholder="title" required>
+                <label for="ratings">Ratings: </label>
+                <div>
+                    <input type="number" id="ratings" name="ratings" min="1" max="100" placeholder="approval ratings in %" required>  %
                 </div>
-                <div class="bad">
-                    <h3>Bad Nutritions</h3>
-                    <ul class="bad-list">
-                        <li><span class="title" contenteditable="true">Nutrition title(click to edit)</span><span class="amount" contenteditable="true">Nutrition amount(click to edit)</span></li>
-                    </ul>
-                    <button class="bad-add" type="button"><i class="fas fa-plus"></i> Add Nutrition</button>
+                <label for="readyInMinutes">Estimated time to prepare meal: </label>
+                <input type="number" id="readyInMinutes" name="readyInMinutes" placeholder="estimated time in minutes" required>
+                <label for="cuisine">Cuisine</label>
+                <select name="cuisine" id="cuisine">
+                    <option value="african">african</option>
+                    <option value="american">american</option>
+                    <option value="british">british</option>
+                    <option value="cajun">cajun</option>
+                    <option value="caribbean">caribbean</option>
+                    <option value="chinese">chinese</option>
+                    <option value="eastern european">eastern european</option>
+                    <option value="european">european</option>
+                    <option value="french">french</option>
+                    <option value="german">german</option>
+                    <option value="greek">greek</option>
+                    <option value="irish">irish</option>
+                    <option value="italian">italian</option>
+                    <option value="japanese">japanese</option>
+                    <option value="jewish">jewish</option>
+                    <option value="korean">korean</option>
+                    <option value="latin american">latin american</option>
+                    <option value="mediterranean">mediterranean</option>
+                    <option value="mexican">mexican</option>
+                    <option value="middle eastern">middle eastern</option>
+                    <option value="nordic">nordic</option>
+                    <option value="southern">southern</option>
+                    <option value="thai">thai</option>
+                    <option value="vietnamese">vietnamese</option>
+                </select>
+                <label for="url">Image url: </label>
+                <input type="text" id="url" name="url" placeholder="meal image url" required>
+                <label for="summary">Summary: </label>
+                <textarea name="summary" id="summary" placeholder="summary"></textarea>
+                <label for="instruction">Instruction: </label>
+                <hr>
+                <div id="instruction" name="instruction" class="instruction">
+                    <ol>
+                        <li contenteditable="true">Your First Step (click here to edit)</li>
+                    </ol>
+                    <button type="button" class="add-instruction"><i class="fas fa-plus"></i>  Add step</button>
                 </div>
-            </div>
-            <hr>
-            <label for="ingredients">Ingredients: </label>
-            <div class="ingredients" name="ingredients" id="ingredients">
-                <ul>
-                    <li contenteditable="true">First ingredients(click to edit)</li>
-                </ul>
-                <button type="button"><i class="fas fa-plus"></i> Add Ingredients</button>
-            </div>
-            <button type="submit">Submit</button>
-        </form>
+                <hr>
+                <label for="nutrition">Nutrition: </label>
+                <div class="nutrition">
+                    <div class="good">
+                        <h3>Good Nutritions</h3>
+                        <ul class="good-list">
+                            <li><span class="title" contenteditable="true">Nutrition title(click to edit)</span><span class="amount" contenteditable="true">Nutrition amount(click to edit)</span></li>
+                        </ul>
+                        <button class="good-add" type="button"><i class="fas fa-plus"></i> Add Nutrition</button>
+                    </div>
+                    <div class="bad">
+                        <h3>Bad Nutritions</h3>
+                        <ul class="bad-list">
+                            <li><span class="title" contenteditable="true">Nutrition title(click to edit)</span><span class="amount" contenteditable="true">Nutrition amount(click to edit)</span></li>
+                        </ul>
+                        <button class="bad-add" type="button"><i class="fas fa-plus"></i> Add Nutrition</button>
+                    </div>
+                </div>
+                <hr>
+                <label for="ingredients">Ingredients: </label>
+                <div class="ingredients" name="ingredients" id="ingredients">
+                    <ul>
+                        <li contenteditable="true">First ingredients(click to edit)</li>
+                    </ul>
+                    <button type="button"><i class="fas fa-plus"></i> Add Ingredients</button>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        {% else %}
+            <h2>You need to <a href="/login">login</a> to submit your recipe</h2>
+        {% endif %}
     </section>
 </main>
 {% endblock %}

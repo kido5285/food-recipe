@@ -15,6 +15,12 @@
     </section>
     <section id="recipe-dets">
         <h1>loading...</h1>
+        {% if creator %}
+        <div class="buttons" style="opacity: 0;">
+            <button class="edit-recipe" onclick="editrecipe(event)"><i class="far fa-edit"></i>  Edit - Click on text to edit</button>
+            <button class="cancel-edit" onclick="canceledit(event)">Cancel</button>
+        </div>
+        {% endif %}
     </section>
 </main>
 {% endblock %}

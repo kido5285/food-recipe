@@ -98,13 +98,10 @@ header .main-header .its-content .list {
     font-size: 1rem;
 }
 
-header .main-header .its-content .list li:nth-child(2){
-    margin: 0 50px;
-}
-
 header .main-header .its-content .list li a {
     color: #fff;
     font-weight: bold;
+    margin: 0 10px;
 }
 
 .mob-ham {
@@ -1415,4 +1412,253 @@ footer .copyright p a {
     color: #fff;
     font-size: 1.4rem;
     margin: 10px 0;
+}
+
+#signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+#signup h2 {
+    text-align: center;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+
+#signup form {
+    width: 580px;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#signup form label {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+#signup form input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #000;
+}
+
+#signup form button {
+    padding: 10px 15px;
+    background-color: #ff0005;
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 635px){
+    #signup form {
+        width: 100%;
+        min-width: none;
+    }
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+#login h2 {
+    text-align: center;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+
+#login form {
+    width: 580px;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#login form label {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+#login form input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1rem;
+    outline: none;
+    border: 1px solid #000;
+}
+
+#login form button {
+    padding: 10px 15px;
+    background-color: #ff0005;
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 635px){
+    #login form {
+        width: 100%;
+        min-width: none;
+    }
+}
+
+.error {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #ff0f05;
+    margin: 10px 0;
+}
+
+.success {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #03AC13;
+    margin: 10px 0;
+}
+
+#profile {
+    width: 700px;
+    padding: 50px 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+    #profile {
+        width: 100% !important;
+    }
+}
+
+#profile .signout {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color:#ff0f05;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#profile h2 {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+#profile .form-group {
+    margin: 10px 0;
+}
+
+#profile .form-group p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+#profile .form-group input {
+    width: 200px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid #000;
+    margin: 10px 0;
+    padding: 3px;
+}
+
+#profile .form-group button {
+    padding: 10px 15px;
+    background-color: #ff0f05;
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#profile h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#profile .createdRecipes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;   
+}
+
+#profile .createdRecipes .header {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+#profile .createdRecipes .col {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+}
+
+#profile .createdRecipes .col:nth-child(even){
+    background-color: #000;
+    color: #fff;
+    --btnColor: #fff;
+    --btnBg: #000;
+}
+
+#profile .createdRecipes .col:nth-child(odd){
+    --btnColor: #000;
+    --btnBg: #fff;
+}
+
+
+#profile .createdRecipes .col button {
+    padding: 10px;
+    font-size: 1.1rem;
+    color: var(--btnColor);
+    border: none;
+    outline: none;
+    background-color: var(--btnBg);
+    cursor: pointer;
 }

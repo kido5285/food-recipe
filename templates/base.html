@@ -20,6 +20,13 @@
             <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/home">Home Page</a></li>
             <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/recipes">Recipes</a></li>
             <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/contact-us">Contact Us</a></li>
+            <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/submitrecipe">Submit Recipe</a></li>
+            {% if websession %}
+            <li class="item mob-nav-elem"><a href="/profile" class="mob-nav-elem">{{websession['user']['username']}}</a></li>
+            {% else %}
+            <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/signup">Sign Up</a></li>
+            <li class="item mob-nav-elem"><a class="mob-nav-elem" href="/login">Login</a></li>
+            {% endif %}
         </ul>
     </div>
     <header>
@@ -57,6 +64,12 @@
                     <li class="item"><a href="/home">Home Page</a></li>
                     <li class="item"><a href="/recipes">Recipes</a></li>
                     <li class="item"><a href="/contact-us">Contact Us</a></li>
+                    {% if websession %}
+                    <li class="item"><a href="/profile">{{websession['user']['username']}}</a></li>
+                    {% else %}
+                    <li class="item"><a href="/signup">Sign Up</a></li>
+                    <li class="item"><a href="/login">Login</a></li>
+                    {% endif %}
                 </ul>
                 <div class="social_icons">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>

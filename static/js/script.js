@@ -144,7 +144,13 @@ function changelistener(event, cont){
     })
 }
 
+
 waitforelem('#recipe-dets', async () => {
+    let ifyrcreator = false;
+    if(document.querySelector('#recipe-dets .buttons')){
+        ifyrcreator = true;
+        document.querySelector('#recipe-dets .buttons').style.display = 'none';
+    }
     getData2(window.location.href.split('/')[window.location.href.split('/').length-2], window.location.href.split('/')[window.location.href.split('/').length-1]).then(data => {
         data = JSON.parse(data)
         console.log(data)   
@@ -153,12 +159,12 @@ waitforelem('#recipe-dets', async () => {
         getNutrition(window.location.href.split('/')[window.location.href.split('/').length-2], window.location.href.split('/')[window.location.href.split('/').length-1]).then(nutri => {
             nutri = JSON.parse(nutri)
             console.log(nutri);
-            console.log(summary(data['summary']));
+            console.log(summary(data['summary']), data['instructions'].split('\n').join(''));
             let mainhtml = `
 <div class="header">
     <h1 data-dets="title">${data['title']}</h1> 
     <div class="col">
-        <ins class="ratings"><span data-dets="spooncularScore">${data['spoonacularScore']}</span>% <i class="far fa-thumbs-up"></i></ins>
+        <ins class="ratings"><span data-dets="spoonacularScore">${data['spoonacularScore']}</span>% <i class="far fa-thumbs-up"></i></ins>
         <span class="min-to-prep" data-dets="readyInMinutes">${data['readyInMinutes']} minutes to prepare</span>
     </div>
 </div>
@@ -167,7 +173,7 @@ waitforelem('#recipe-dets', async () => {
 <p class="summary" data-dets="summary" oninput="changelistener(event);">${summary(data['summary'])}</p>
 <div class="instruction">
     <h2>Instructions</h2>
-    ${data['instructions']}
+    ${data['instructions'].split('\n').join('')}
 </div>
 <div class="infos">
     <div class="info">
@@ -181,12 +187,12 @@ waitforelem('#recipe-dets', async () => {
         ${ingredients(data['extendedIngredients'])}
     </div>
 </div>
-<div class="buttons">
-    <button class="edit-recipe"><i class="far fa-edit"></i>  Edit - Click on text to edit</button>
-    <button class="cancel-edit">Cancel</button>
-</div>
-`
-            document.querySelector('#recipe-dets').innerHTML = mainhtml;
+`;           
+            if(ifyrcreator){
+                document.querySelector('#recipe-dets').innerHTML = mainhtml + '<div class="buttons"><button onclick="editrecipe(event)" class="edit-recipe"><i class="far fa-edit"></i>  Edit - Click on text to edit</button><button class="cancel-edit" onclick="canceledit(event)">Cancel</button></div>';
+            } else {
+                document.querySelector('#recipe-dets').innerHTML = mainhtml;
+            }
             [...document.querySelectorAll('#recipe-dets h1')].forEach(elem => {
                 elem.contentEditable = false;
             });
@@ -206,57 +212,57 @@ waitforelem('#recipe-dets', async () => {
     })
 })
 
-waitforelem('.edit-recipe', () => {
-    document.querySelector('.edit-recipe').onclick = (e) => {
-        [...document.querySelectorAll('#recipe-dets h1')].forEach(elem => {
-            elem.contentEditable = true;
-            elem.oninput = (event) => {
-                return changelistener(event);
-            }
-        });
-        [...document.querySelectorAll('#recipe-dets li')].forEach((elem, i) => {
-            elem.contentEditable = true;
-            elem.oninput = (event) => {
-                return changelistener(event);
-            };
-            elem.dataset.dets = `instruction-${i+1}`;
-        });
-        [...document.querySelectorAll('#recipe-dets span')].forEach(elem => {
-            elem.contentEditable = true;
-            elem.oninput = (event) => {
-                return changelistener(event);
-            }
-        });
-        [...document.querySelectorAll('#recipe-dets p')].forEach(elem => {
-            elem.contentEditable = true;
-            elem.oninput = (event) => {
-                return changelistener(event);
-            }
-        });
-        let summaryelem = document.querySelector('.summary');
-        document.querySelector('#recipe-dets .summary').outerHTML = document.querySelector('#recipe-dets .summary').outerHTML + '<div class="edit-a-tags"></div>';
-    }
-    document.querySelector('.cancel-edit').onclick = (e) => {
-        [...document.querySelectorAll('#recipe-dets h1')].forEach(elem => {
-            elem.contentEditable = false;
-            elem.removeEventListener('input', (eve) => changelistener(eve))
-        });
-        [...document.querySelectorAll('#recipe-dets li')].forEach((elem, i) => {
-            elem.contentEditable = false;
-            elem.removeEventListener('input', (eve) => changelistener(eve));
-            elem.dataset.dets = '';
-        });
-        [...document.querySelectorAll('#recipe-dets span')].forEach(elem => {
-            elem.contentEditable = false;
-            elem.removeEventListener('input', (eve) => changelistener(eve));
-        });
-        [...document.querySelectorAll('#recipe-dets p')].forEach(elem => {
-            elem.contentEditable = false;
-            elem.removeEventListener('input', (eve) => changelistener(eve));    
-        });
-        document.getElementById('recipe-dets').removeChild(document.querySelector('.edit-a-tags'));
-    }
-})
+
+function editrecipe(e){
+    [...document.querySelectorAll('#recipe-dets h1')].forEach(elem => {
+        elem.contentEditable = true;
+        elem.oninput = (event) => {
+            return changelistener(event);
+        }
+    });
+    [...document.querySelectorAll('#recipe-dets li')].forEach((elem, i) => {
+        elem.contentEditable = true;
+        elem.oninput = (event) => {
+            return changelistener(event);
+        };
+        elem.dataset.dets = `instruction-${i+1}`;
+    });
+    [...document.querySelectorAll('#recipe-dets span')].forEach(elem => {
+        elem.contentEditable = true;
+        elem.oninput = (event) => {
+            return changelistener(event);
+        }
+    });
+    [...document.querySelectorAll('#recipe-dets p')].forEach(elem => {
+        elem.contentEditable = true;
+        elem.oninput = (event) => {
+            return changelistener(event);
+        }
+    });
+    let summaryelem = document.querySelector('.summary');
+    document.querySelector('#recipe-dets .summary').outerHTML = document.querySelector('#recipe-dets .summary').outerHTML + '<div class="edit-a-tags"></div>';
+}
+
+function canceledit(e) {
+    [...document.querySelectorAll('#recipe-dets h1')].forEach(elem => {
+        elem.contentEditable = false;
+        elem.removeEventListener('input', (eve) => changelistener(eve))
+    });
+    [...document.querySelectorAll('#recipe-dets li')].forEach((elem, i) => {
+        elem.contentEditable = false;
+        elem.removeEventListener('input', (eve) => changelistener(eve));
+        elem.dataset.dets = '';
+    });
+    [...document.querySelectorAll('#recipe-dets span')].forEach(elem => {
+        elem.contentEditable = false;
+        elem.removeEventListener('input', (eve) => changelistener(eve));
+    });
+    [...document.querySelectorAll('#recipe-dets p')].forEach(elem => {
+        elem.contentEditable = false;
+        elem.removeEventListener('input', (eve) => changelistener(eve));    
+    });
+    document.getElementById('recipe-dets').removeChild(document.querySelector('.edit-a-tags'));
+}
 
 function deleteedit(event){
     let atagedit = event.target.parentElement;
@@ -423,4 +429,33 @@ document.querySelector('#submitrecipe form').onsubmit = (e) => {
         document.querySelector('#submitrecipe form').innerHTML = '<div class="success">Submited Successfully</div>' + document.querySelector('#submitrecipe form').innerHTML;
         window.scrollTo(100, 0);
     })
+}
+
+function signup(event){
+    event.preventDefault();
+    let username = event.target.querySelector('#username').value;
+    let email = event.target.querySelector('#email').value;
+    let password = event.target.querySelector('#password').value;
+    let query = `username=${encodeURIComponent(username)}&email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
+    $.post('/users/signup/', query, (data, status) => {
+        document.querySelector('.signup-form').innerHTML = `<div class="success">Sign up success you may now <a href="/login">login</a></div>` + document.querySelector('.signup-form').innerHTML;
+    }).fail((data) => {
+        document.querySelector('.signup-form').innerHTML = `<div class="error">${data.responseJSON}</div>` + document.querySelector('.signup-form').innerHTML;
+    })
+}
+
+function login(e){
+    e.preventDefault();
+    let username = e.target.querySelector('#username').value;
+    let password = e.target.querySelector('#password').value;
+    let query = `username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
+    $.post('/users/login/', query, (data) => {
+        window.location.href = '/'
+    }).fail((data) => {
+        document.querySelector('.login-form').innerHTML = `<div class="error">${data.responseJSON}</div>` + document.querySelector('.login-form').innerHTML;
+    })
+}
+
+function signout(){
+    window.location.href = '/user/signout/';
 }
